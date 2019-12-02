@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:so="http://schema.org/"
+  xmlns:ae="http://www.abs-ebri-project.uk/abs-ebri#"
+  xmlns:org="http://www.w3.org/ns/org#"
+  xmlns:gn="http://www.geonames.org/ontology#"
+  xmlns:wgs="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  >
+
+
+  <rdf:Description rdf:about="http://www.abs-ebri-project.uk/service/application_programming">
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.abs-ebri-project.uk/service/application_testing">
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.abs-ebri-project.uk/service/assembly_and_configuration">
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.abs-ebri-project.uk/service/coaching">
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.abs-ebri-project.uk/service/commissioning">
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.abs-ebri-project.uk/service/conceptual_design">
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.abs-ebri-project.uk/service/conceptual_specification">
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.abs-ebri-project.uk/service/consultancy">
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.abs-ebri-project.uk/service/feasibility_study">
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.abs-ebri-project.uk/service/hardware_design">
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.abs-ebri-project.uk/service/industrial_automation">
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.abs-ebri-project.uk/service/installation">
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.abs-ebri-project.uk/service/obsolescence_planning">
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.abs-ebri-project.uk/service/plant_construction">
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.abs-ebri-project.uk/service/plant_design">
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.abs-ebri-project.uk/service/plant_development">
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.abs-ebri-project.uk/service/plant_modification">
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.abs-ebri-project.uk/service/process_optimisation">
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.abs-ebri-project.uk/service/operating_procedure_optimisation">
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.abs-ebri-project.uk/service/programmable_control">
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.abs-ebri-project.uk/service/project_management">
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.abs-ebri-project.uk/service/safety_systems">
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.abs-ebri-project.uk/service/software_design">
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.abs-ebri-project.uk/service/training">
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.abs-ebri-project.uk/service/technical_support">
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.abs-ebri-project.uk/service/technical_service">
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.abs-ebri-project.uk/service/">
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.abs-ebri-project.uk/service/">
+  </rdf:Description>
+
+
+
+</rdf:RDF>

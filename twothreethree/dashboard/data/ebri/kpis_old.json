@@ -1,0 +1,65 @@
+{
+  "kpiScope" : {
+    "all": "All organisations",
+    "selection": "Selected organisations",
+    "selectedNode": "Selected organisation"
+  },
+  "kpiGroups" : {
+    "all": "standardKpis",
+    "selection": "selectionKpis",
+    "selectedNode": "focusKpis"
+  },
+  "standardKpis" : {
+    "network": "contact count",
+    "weighted_kpi": "estimated service cost",
+    "selected_node": "best fit, focus"
+  },
+  "focusKpis" : {
+    "cost": "relative cost",
+    "feedstock_supply": "feedstock supply",
+    "feedstock_amount": "feedstock amount",
+    "feedstock_delivery_frequency": "feedstock delivery cycle",
+    "feedstock_ingestion_cycle": "feedstock ingestion cycle",
+    "distance" : "distance",
+    "energy_generation": "energy generation",
+    "waste_reduction": "waste reduction",
+    "r_and_d": "R & D",
+    "csr": "CSR as strategy"
+  },
+  "focusKpiCategories" : {
+    "Hub": [
+    ],
+    "PlantOperator": [
+      "cost",
+      "feedstock_ingestion_cycle",
+      "feedstock_supply",
+      "energy_generation",
+      "waste_reduction",
+      "distance",
+      "r_and_d"
+    ],
+    "ServiceProvider": [
+      "cost",
+      "feedstock_supply",
+      "waste_reduction",
+      "distance",
+      "r_and_d",
+      "csr"
+    ],
+    "AncillaryServiceProvider": [
+      "cost",
+      "distance",
+      "r_and_d",
+      "csr"
+    ],
+    "FeedstockSupplier": [
+      "cost",
+      "distance",
+      "feedstock_amount",
+      "feedstock_delivery_frequency",
+      "waste_reduction"
+    ],
+    "Unknown": [
+    ]
+  }
+}

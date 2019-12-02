@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:so="http://schema.org/"
+  xmlns:ae="http://www.abs-ebri-project.uk/abs-ebri#"
+  xmlns:org="http://www.w3.org/ns/org#"
+  xmlns:gn="http://www.geonames.org/ontology#"
+  xmlns:wgs="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  >
+
+
+
+  <rdf:Description rdf:about="http://www.abs-ebri-project.uk/hub">
+    <rdf:type rdf:resource="http://www.abs-ebri-project.uk/ServiceProvider"/>
+    <so:identifier rdf:resource="http://www.abs-ebri-project.uk/hub"/>
+    <org:hasSite rdf:resource="http://sws.geonames.org/6619732/"/>
+
+    <ae:registrationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">2012-01-05T10:00:00+00:00</ae:registrationDate>
+    <so:name>EBRI</so:name>
+    <so:isContact>A. N. Ebri</so:isContact>
+
+    <ae:hasWasteManagementProcess>
+      <ae:InHouseWasteManagement rdf:resource="http://www.abs-ebri-project.uk/WasteManagementProcess/Recycling">
+        <ae:consumes rdf:resource="http://www.abs-ebri-project.uk/Waste/glass"/>
+        <ae:consumes rdf:resource="http://www.abs-ebri-project.uk/Waste/plastic"/>
+        <ae:consumes rdf:resource="http://www.abs-ebri-project.uk/Waste/cardboard"/>
+        <ae:consumes rdf:resource="http://www.abs-ebri-project.uk/Waste/paper"/>
+      </ae:InHouseWasteManagement>
+    </ae:hasWasteManagementProcess>
+
+    <ae:providesWasteToValueService>
+      <ae:AncillaryService rdf:resource="http://www.abs-ebri-project.uk/Process/process_optimisation"/>
+      <ae:AncillaryService rdf:resource="http://www.abs-ebri-project.uk/Process/process_automation"/>
+      <ae:AncillaryService rdf:resource="http://www.abs-ebri-project.uk/Process/digitisation"/>
+    </ae:providesWasteToValueService>
+
+    <ae:potentialWasteToValueService rdf:resource="http://www.abs-ebri-project.uk/service/b2b_operations"/>
+
+    <ae:hasPrimaryServiceSector rdf:resource="http://www.abs-ebri-project.uk/ServiceSector/consulting"/>
+
+    <ae:providesService rdf:about="http://www.abs-ebri-project.uk/service/feasibility_study"/>
+    <ae:providesService rdf:about="http://www.abs-ebri-project.uk/service/training"/>
+    <ae:providesService rdf:about="http://www.abs-ebri-project.uk/service/consultancy"/>
+
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.abs-ebri-project.uk/organisation_1">
+    <rdf:type rdf:resource="http://www.abs-ebri-project.uk/ServiceProvider"/>
+    <so:identifier rdf:resource="http://www.abs-ebri-project.uk/organisation_1"/>
+    <org:hasSite rdf:resource="http://sws.geonames.org/2638635/"/>
+
+    <ae:registrationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">2015-11-16T14:33:01+00:00</ae:registrationDate>
+    <so:name>Adv. Sys. Ltd</so:name>
+    <so:isContact>A. N. Other</so:isContact>
+
+    <ae:hasWasteManagementProcess>
+      <ae:InHouseWasteManagement rdf:resource="http://www.abs-ebri-project.uk/WasteManagementProcess/Recycling">
+        <ae:consumes rdf:resource="http://www.abs-ebri-project.uk/Waste/cardboard"/>
+      </ae:InHouseWasteManagement>
+      <ae:ExternalWasteManagement rdf:resource="http://www.abs-ebri-project.uk/WasteManagementProcess/Landfill"/>
+    </ae:hasWasteManagementProcess>
+
+    <ae:providesWasteToValueService>
+      <ae:AncillaryService rdf:resource="http://www.abs-ebri-project.uk/Process/process_optimisation"/>
+      <ae:AncillaryService rdf:resource="http://www.abs-ebri-project.uk/Process/process_automation"/>
+      <ae:AncillaryService rdf:resource="http://www.abs-ebri-project.uk/Process/digitisation"/>
+    </ae:providesWasteToValueService>
+
+    <ae:potentialWasteToValueService rdf:resource="http://www.abs-ebri-project.uk/service/b2b_operations"/>
+
+    <ae:seeksLinkTo rdf:resource="http://www.abs-ebri-project.uk/service/plant_construction"/>
+    <ae:seeksLinkTo rdf:resource="http://www.abs-ebri-project.uk/service/plant_design"/>
+    <ae:seeksLinkTo rdf:resource="http://www.abs-ebri-project.uk/service/plant_development"/>
+
+
+    <ae:seeksOpportunity rdf:resource="http://www.abs-ebri-project.uk/WasteMarketPlace/opportunity_exploration"/>
+    <ae:seeksOpportunity rdf:resource="http://www.abs-ebri-project.uk/WasteMarketPlace/product_development"/>
+    <ae:seeksOpportunity rdf:resource="http://www.abs-ebri-project.uk/WasteMarketPlace/service_development"/>
+
+    <ae:hasPrimaryServiceSector rdf:resource="http://www.abs-ebri-project.uk/ServiceSector/consulting"/>
+    <ae:inServiceSector rdf:resource="http://www.abs-ebri-project.uk/ServiceSector/power_generation"/>
+    <ae:inServiceSector rdf:resource="http://www.abs-ebri-project.uk/ServiceSector/chemicals"/>
+    <ae:inServiceSector rdf:resource="http://www.abs-ebri-project.uk/ServiceSector/food_and_beverage"/>
+    <ae:inServiceSector rdf:resource="http://www.abs-ebri-project.uk/ServiceSector/metals"/>
+    <ae:inServiceSector rdf:resource="http://www.abs-ebri-project.uk/ServiceSector/manufacturing"/>
+    <ae:inServiceSector rdf:resource="http://www.abs-ebri-project.uk/ServiceSector/oil_and_gas"/>
+
+    <ae:targetMarket rdf:resource="http://www.abs-ebri-project.uk/EnergyMarket/pulp_and_paper"/>
+
+    <ae:providesService rdf:about="http://www.abs-ebri-project.uk/service/feasibility_study"/>
+    <ae:providesService rdf:about="http://www.abs-ebri-project.uk/service/conceptual_design"/>
+    <ae:providesService rdf:about="http://www.abs-ebri-project.uk/service/conceptual_specification"/>
+    <ae:providesService rdf:about="http://www.abs-ebri-project.uk/service/obsolescence_planning"/>
+    <ae:providesService rdf:about="http://www.abs-ebri-project.uk/service/project_management"/>
+    <ae:providesService rdf:about="http://www.abs-ebri-project.uk/service/hardware_design"/>
+    <ae:providesService rdf:about="http://www.abs-ebri-project.uk/service/software_design"/>
+    <ae:providesService rdf:about="http://www.abs-ebri-project.uk/service/assembly_and_configuration"/>
+    <ae:providesService rdf:about="http://www.abs-ebri-project.uk/service/application_programming"/>
+    <ae:providesService rdf:about="http://www.abs-ebri-project.uk/service/application_testing"/>
+    <ae:providesService rdf:about="http://www.abs-ebri-project.uk/service/installation"/>
+    <ae:providesService rdf:about="http://www.abs-ebri-project.uk/service/commissioning"/>
+    <ae:providesService rdf:about="http://www.abs-ebri-project.uk/service/training"/>
+    <ae:providesService rdf:about="http://www.abs-ebri-project.uk/service/coaching"/>
+    <ae:providesService rdf:about="http://www.abs-ebri-project.uk/service/technical_support"/>
+    <ae:providesService rdf:about="http://www.abs-ebri-project.uk/service/technical_service"/>
+    <ae:providesService rdf:about="http://www.abs-ebri-project.uk/service/industrial_automation"/>
+    <ae:providesService rdf:about="http://www.abs-ebri-project.uk/service/programmable_control"/>
+    <ae:providesService rdf:about="http://www.abs-ebri-project.uk/service/safety_systems"/>
+    <ae:providesService rdf:about="http://www.abs-ebri-project.uk/service/consultancy"/>
+
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.abs-ebri-project.uk/">
+
+    <rdf:type rdf:resource="http://www.abs-ebri-project.uk/ServiceProvider"/>
+    <so:identifier rdf:resource="http://www.abs-ebri-project.uk/organisation_2"/>
+    <org:hasSite rdf:resource="http://sws.geonames.org/9730993/"/>
+    <ae:registrationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#Date">2015-11-10T13:53:27+00:00</ae:registrationDate>
+    <so:name>UO Energy Systems</so:name>
+    <so:isContact>Yet AnotherPerson</so:isContact>
+
+    <ae:hasWasteManagementProcess>
+      <ae:InHouseWasteManagement rdf:resource="http://www.abs-ebri-project.uk/WasteManagementProcess/">
+        <ae:consumes rdf:resource="http://www.abs-ebri-project.uk/Waste/"/>
+      </ae:InHouseWasteManagement>
+      <ae:ExternalWasteManagement rdf:resource="http://www.abs-ebri-project.uk/WasteManagementProcess/"/>
+    </ae:hasWasteManagementProcess>
+
+    <ae:providesWasteToValueService>
+      <ae:AncillaryService rdf:resource="http://www.abs-ebri-project.uk/"/>
+    </ae:providesWasteToValueService>
+
+    <ae:potentialWasteToValueService rdf:resource="http://www.abs-ebri-project.uk/service/"/>
+
+    <ae:seeksLinkTo rdf:resource="http://www.abs-ebri-project.uk/service/"/>
+    <ae:seeksLinkTo rdf:resource="http://www.abs-ebri-project.uk/service/"/>
+    <ae:seeksLinkTo rdf:resource="http://www.abs-ebri-project.uk/service/"/>
+
+
+    <ae:seeksOpportunity rdf:resource="http://www.abs-ebri-project.uk/WasteMarketPlace/"/>
+    <ae:seeksOpportunity rdf:resource="http://www.abs-ebri-project.uk/WasteMarketPlace/"/>
+    <ae:seeksOpportunity rdf:resource="http://www.abs-ebri-project.uk/WasteMarketPlace/"/>
+
+    <ae:hasPrimaryServiceSector rdf:resource="http://www.abs-ebri-project.uk/ServiceSector/engineering"/>
+    <ae:inServiceSector rdf:resource="http://www.abs-ebri-project.uk/ServiceSector/renewable_technologies"/>
+    <ae:inServiceSector rdf:resource="http://www.abs-ebri-project.uk/ServiceSector/r_and_d"/>
+    <ae:inServiceSector rdf:resource="http://www.abs-ebri-project.uk/ServiceSector/clean_energy"/>
+    <ae:inServiceSector rdf:resource="http://www.abs-ebri-project.uk/ServiceSector/generator_design"/>
+    <ae:inServiceSector rdf:resource="http://www.abs-ebri-project.uk/ServiceSector/waste_to_energy, aerobic waste digestion, solar concentrator & allied products"/>
+    <ae:inServiceSector rdf:resource="http://www.abs-ebri-project.uk/ServiceSector/"/>
+    <ae:inServiceSector rdf:resource="http://www.abs-ebri-project.uk/ServiceSector/"/>
+    <ae:inServiceSector rdf:resource="http://www.abs-ebri-project.uk/ServiceSector/"/>
+
+...
+
+    <ae:providesService rdf:about="http://www.abs-ebri-project.uk/service/"/>
+    <ae:providesService rdf:about="http://www.abs-ebri-project.uk/service/"/>
+/"/>
+  </rdf:Description>
+
+
+  <rdf:Description rdf:about="http://sws.geonames.org/2641224/">
+    <wgs:lat>53.258801</wgs:lat>
+    <wgs:long>-2.51809</wgs:long>
+    <gn:name>Northwich</gn:name>
+    <gn:parentCountry rdf:resource="http://sws.geonames.org/2635167/"/>
+  </rdf:Description>
+
+
+</rdf:RDF>

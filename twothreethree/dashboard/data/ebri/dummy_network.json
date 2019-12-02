@@ -1,0 +1,751 @@
+{
+  "nodes": [
+    {
+      "identifier": "hub_fc37c4e23a31",
+      "CompanyUri": "http://www.abs-ebri-project.uk/companyId/hub_fc37c4e23a31/EBRI",
+      "CompanyName": "EBRI",
+      "RegistrationDate": "2012-01-05T10:00:00+00:00",
+      "PrimarySiteGeonamesID": "6619732",
+      "PrimarySiteLatLng": [ 52.48589, -1.889 ],
+      "OrganisationType": "Hub",
+      "carbon_levy": 0,
+      "index": 0
+    },
+    {
+      "identifier": "d4f3feb480c6",
+      "CompanyUri": "http://www.abs-ebri-project.uk/companyId/d4f3feb480c6",
+      "CompanyName": "Adv. Sys. Ltd",
+      "RegistrationDate": "2015-11-16T14:33:01+00:00",
+      "PrimarySiteGeonamesID": "2638635",
+      "PrimarySiteLatLng": [ 52.49163, -1.8596 ],
+      "OrganisationType": "ServiceProvider",
+      "Sector": "Transportation and Logistics",
+      "carbon_levy": 30,
+      "index": 1
+    },
+    {
+      "identifier": "db501d62cf62",
+      "CompanyUri": "http://www.abs-ebri-project.uk/companyId/db501d62cf62",
+      "CompanyName": "Woodloes Ent.",
+      "RegistrationDate": "2016-10-14T00:00:01+00:00",
+      "PrimarySiteGeonamesID": "2633688",
+      "PrimarySiteLatLng": [ 52.06246, -0.81659 ],
+      "OrganisationType": "PlantOperator",
+      "Sector": "Energy",
+      "InputFeedstock": [
+        {
+          "WasteType": "FoodWaste",
+          "QuantityInTonnes": 15,
+          "IngestionCycle": "weekly"
+        },
+        {
+          "WasteType": "FoodProcessingResidue",
+          "QuantityInTonnes": 7.5,
+          "IngestionCycle": "fortnightly"
+        },
+        {
+          "WasteType": "AgriculturalResidue",
+          "QuantityInTonnes": 55,
+          "IngestionCycle": "weekly",
+          "PreferredFeedstock": true
+        },
+        {
+          "WasteType": "BrewerySludge",
+          "QuantityInTonnes": 35,
+          "IngestionCycle": "weekly"
+        },
+        {
+          "WasteType": "DryArableWaste",
+          "QuantityInTonnes": 10,
+          "IngestionCycle": "weekly"
+        }
+      ],
+      "Feedstock": [
+        {
+          "WasteType": "Digestate",
+          "QuantityInTonnes": 2,
+          "DeliveryCycle": "weekly",
+          "UnitPrice": 30
+        }
+      ],
+      "EnergyProduction": [{
+          "EnergyOutput": "Biogas",
+          "Efficiency": 0.6,
+          "YieldPerYearKwH": 80000,
+          "Distribution": {
+            "ElectricyKW": 1000,
+            "HeatKW": 1600
+          }
+        }
+      ],
+      "environmental_emissions": 1,
+      "carbon_levy": -90,
+      "index": 2
+    },
+    {
+      "identifier": "e407634ed82a",
+      "CompanyUri": "http://www.abs-ebri-project.uk/companyId/e407634ed82a",
+      "CompanyName": "UO Energy Systems",
+      "RegistrationDate": "2015-11-10T13:53:27+00:00",
+      "PrimarySiteGeonamesID": "2634824",
+      "PrimarySiteLatLng": [ 52.75889, -1.6749 ],
+      "OrganisationType": "ServiceProvider",
+      "Sector": "Consultancy|Energy",
+      "Discounts": [
+      ],
+      "carbon_levy": 10,
+      "index": 3
+    },
+    {
+      "identifier": "d51d9bb28eed",
+      "CompanyUri": "http://www.abs-ebri-project.uk/companyId/d51d9bb28eed",
+      "CompanyName": "Midi Consulting",
+      "RegistrationDate": "2017-11-23T12:30:01+00:00",
+      "PrimarySiteGeonamesID": "2653941",
+      "PrimarySiteLatLng": [ 52.2, 0.11667 ],
+      "OrganisationType": "AncillaryServiceProvider",
+      "carbon_levy": 10,
+      "index": 4
+    },
+    {
+      "identifier": "daba29f2cd88",
+      "CompanyUri": "http://www.abs-ebri-project.uk/companyId/daba29f2cd88",
+      "CompanyName": "Eptino's",
+      "RegistrationDate": "2016-10-13T12:30:01+00:00",
+      "PrimarySiteGeonamesID": "3333139",
+      "PrimarySiteLatLng": [ 52.41667, -1.5 ],
+      "OrganisationType": "FeedstockSupplier",
+      "Sector": "Entertainment",
+      "Feedstock": [
+        {
+          "WasteType": "FoodWaste",
+          "QuantityInTonnes": 2,
+          "DeliveryCycle": "fortnightly"
+        },
+        {
+          "WasteType": "BrewerySludge",
+          "QuantityInTonnes": 1,
+          "DeliveryCycle": "fortnightly"
+        },
+        {
+          "WasteType": "Cork",
+          "QuantityInTonnes": 5,
+          "DeliveryCycle": "fortnightly"
+        }
+      ],
+      "carbon_levy": -5,
+      "index": 5
+    },
+    {
+      "identifier": "d9574537cf02",
+      "CompanyUri": "http://www.abs-ebri-project.uk/companyId/d9574537cf02",
+      "CompanyName": "Eastern General Hospital",
+      "RegistrationDate": "2014-11-10T12:30:01+00:00",
+      "PrimarySiteGeonamesID": "2635101",
+      "PrimarySiteLatLng": [ 52.58803, -0.72272 ],
+      "OrganisationType": "FeedstockSupplier",
+      "Sector": "Healthcare",
+      "Feedstock": [
+        {
+          "WasteType": "CafeteriaWaste",
+          "QuantityInTonnes": 4,
+          "DeliveryCycle": "daily"
+        },
+        {
+          "WasteType": "FoodProcessingResidue",
+          "QuantityInTonnes": 6.5,
+          "DeliveryCycle": "weekly"
+        },
+        {
+          "WasteType": "ClinicalWaste",
+          "QuantityInTonnes": 8,
+          "DeliveryCycle": "weekly"
+        }
+      ],
+      "carbon_levy": -25,
+      "index": 6
+    },
+    {
+      "identifier": "c498307335e4",
+      "CompanyUri": "http://www.abs-ebri-project.uk/companyId/c498307335e4",
+      "CompanyName": "Wonder Finance",
+      "RegistrationDate": "2017-02-10T15:00:01+00:00",
+      "PrimarySiteGeonamesID": "2634835",
+      "PrimarySiteLatLng": [ 52.47774, -1.12494 ],
+      "OrganisationType": "AncillaryServiceProvider",
+      "carbon_levy": 10,
+      "index": 7
+    },
+    {
+      "identifier": "e1b5e5c96a13",
+      "CompanyUri": "http://www.abs-ebri-project.uk/companyId/e1b5e5c96a13",
+      "CompanyName": "Spa Tastic Ltd",
+      "RegistrationDate": "2016-05-11T15:00:01+00:00",
+      "PrimarySiteGeonamesID": "7294176",
+      "PrimarySiteLatLng": [ 52.29312, -1.52609 ],
+      "OrganisationType": "FeedstockSupplier",
+      "Sector": "Wellness",
+      "Feedstock": [
+        {
+          "WasteType": "OfficeWaste",
+          "QuantityInTonnes": 2.5,
+          "DeliveryCycle": "monthly"
+        },
+        {
+          "WasteType": "CleaningProducts",
+          "QuantityInTonnes": 8,
+          "DeliveryCycle": "monthly"
+        }
+      ],
+      "carbon_levy": -7,
+      "index": 8
+    },
+    {
+      "identifier": "b745af40cf37",
+      "CompanyUri": "http://www.abs-ebri-project.uk/companyId/b745af40cf37",
+      "CompanyName": "Guys Cliffe Systems",
+      "RegistrationDate": "2016-03-12T15:00:01+00:00",
+      "PrimarySiteGeonamesID": "10377761",
+      "PrimarySiteLatLng": [ 52.29638, -1.57675 ],
+      "OrganisationType": "FeedstockSupplier",
+      "Sector": "Artisanals",
+      "Feedstock": [
+        {
+          "WasteType": "Sawdust",
+          "QuantityInTonnes": 2.5,
+          "DeliveryCycle": "weekly"
+        },
+        {
+          "WasteType": "WoodChip",
+          "QuantityInTonnes": 1.5,
+          "DeliveryCycle": "fortnightly"
+        },
+        {
+          "WasteType": "DryArableWaste",
+          "QuantityInTonnes": 1.5,
+          "DeliveryCycle": "weekly"
+        }
+      ],
+      "carbon_levy": -3,
+      "index": 9
+    },
+    {
+      "identifier": "b55835206820",
+      "CompanyUri": "http://www.abs-ebri-project.uk/companyId/b55835206820",
+      "CompanyName": "Woodstack Supplies",
+      "RegistrationDate": "2016-04-10T15:00:01+00:00",
+      "PrimarySiteGeonamesID": "2655094",
+      "PrimarySiteLatLng": [ 52.41667, -1.91667 ],
+      "OrganisationType": "FeedstockSupplier",
+      "Sector": "Construction",
+      "Feedstock": [
+        {
+          "WasteType": "WoodChip",
+          "QuantityInTonnes": 4,
+          "DeliveryCycle": "weekly"
+        },
+        {
+          "WasteType": "WasteWood",
+          "QuantityInTonnes": 1.5,
+          "DeliveryCycle": "monthly"
+        },
+        {
+          "WasteType": "DryArableWaste",
+          "QuantityInTonnes": 2.5,
+          "DeliveryCycle": "monthly"
+        },
+        {
+          "WasteType": "SawDust",
+          "QuantityInTonnes": 8,
+          "DeliveryCycle": "weekly"
+        }
+      ],
+      "carbon_levy": -6,
+      "index": 10
+    },
+    {
+      "identifier": "c0e2e73924ae",
+      "CompanyUri": "http://www.abs-ebri-project.uk/companyId/c0e2e73924ae",
+      "CompanyName": "Lint Consulting",
+      "RegistrationDate": "2013-10-09T14:00:01+00:00",
+      "PrimarySiteGeonamesID": "2637488",
+      "PrimarySiteLatLng": [ 52.25266, -1.3884 ],
+      "OrganisationType": "AncillaryServiceProvider",
+      "Sector": "EfW Brokerage Service",
+      "carbon_levy": 10,
+      "index": 11
+    },
+    {
+      "identifier": "a6438f4982e2",
+      "CompanyUri": "http://www.abs-ebri-project.uk/companyId/a6438f4982e2",
+      "CompanyName": "MedWaste Disposal",
+      "RegistrationDate": "2013-11-09T14:00:01+00:00",
+      "PrimarySiteGeonamesID": "2637382",
+      "PrimarySiteLatLng": [ 52.11416, -1.89014 ],
+      "OrganisationType": "AncillaryServiceProvider",
+      "Sector": "Transportation and Logistics",
+      "carbon_levy": 20,
+      "index": 12
+    },
+    {
+      "identifier": "e0249e893f5d",
+      "CompanyUri": "http://www.abs-ebri-project.uk/companyId/e0249e893f5d",
+      "CompanyName": "Cannock Wood Services",
+      "RegistrationDate": "2014-01-03T14:00:01+00:00",
+      "PrimarySiteGeonamesID": "11592775",
+      "PrimarySiteLatLng": [ 52.70585, -1.93321 ],
+      "OrganisationType": "FeedstockSupplier",
+      "Sector": "Ship Building",
+      "Feedstock": [
+        {
+          "WasteType": "WoodChip",
+          "QuantityInTonnes": 6,
+          "DeliveryCycle": "weekly",
+          "UnitPrice": 10
+        },
+        {
+          "WasteType": "WasteWood",
+          "QuantityInTonnes": 0.5,
+          "DeliveryCycle": "monthly",
+          "UnitPrice": 5
+        },
+        {
+          "WasteType": "SawDust",
+          "QuantityInTonnes": 8,
+          "DeliveryCycle": "weekly",
+          "UnitPrice": 6
+        }
+      ],
+      "carbon_levy": -12,
+      "index": 13
+    },
+    {
+      "identifier": "e0243c05a07f",
+      "CompanyUri": "http://www.abs-ebri-project.uk/companyId/e0243c05a07f",
+      "CompanyName": "Manny Legal Services",
+      "PrimarySiteGeonamesID": "7290762",
+      "PrimarySiteLatLng": [ 52.67658, -1.90676 ],
+      "OrganisationType": "AncillaryServiceProvider",
+      "Sector": "Legal",
+      "carbon_levy": 10,
+      "index": 14
+    },
+    {
+      "identifier": "d3a46712db86",
+      "CompanyUri": "http://www.abs-ebri-project.uk/companyId/d3a46712db86",
+      "CompanyName": "AdSystem Services",
+      "RegistrationDate": "2014-11-03T13:00:01+00:00",
+      "PrimarySiteGeonamesID": "7292464",
+      "PrimarySiteLatLng": [ 52.66322, -1.86152 ],
+      "OrganisationType": "AncillaryServiceProvider",
+      "Sector": "Publicity",
+      "carbon_levy": 10,
+      "index": 15
+    },
+    {
+      "identifier": "a6019365a569",
+      "CompanyUri": "http://www.abs-ebri-project.uk/companyId/a6019365a569",
+      "CompanyName": "a6019365a569",
+      "RegistrationDate": "",
+      "PrimarySiteGeonamesID": "2644531",
+      "PrimarySiteLatLng": [ 52.68154, -1.82549 ],
+      "OrganisationType": "AncillaryServiceProvider",
+      "carbon_levy": 10,
+      "index": 16
+    },
+    {
+      "identifier": "b1c820de4993",
+      "CompanyUri": "http://www.abs-ebri-project.uk/companyId/b1c820de4993",
+      "CompanyName": "Digit & Nails",
+      "RegistrationDate": "2012-11-03T12:00:01+00:00",
+      "PrimarySiteGeonamesID": "2636670",
+      "PrimarySiteLatLng": [ 52.58333, -1.88333 ],
+      "OrganisationType": "FeedstockSupplier",
+      "Sector": "Wellness",
+      "Feedstock": [
+        {
+          "WasteType": "CleaningProducts",
+          "QuantityInTonnes": 6,
+          "DeliveryCycle": "weekly",
+          "UnitPrice": -2
+        }
+      ],
+      "carbon_levy": -1,
+      "index": 17
+    },
+    {
+      "identifier": "a3ea0fd28397",
+      "CompanyUri": "http://www.abs-ebri-project.uk/companyId/a3ea0fd28397",
+      "CompanyName": "Hanny & Mendelsohn",
+      "RegistrationDate": "2017-12-24T00:00:01+00:00",
+      "PrimarySiteGeonamesID": "7291750",
+      "PrimarySiteLatLng": [ 52.84204, -1.7461 ],
+      "OrganisationType": "AncillaryServiceProvider",
+      "Sector": "Legal",
+      "carbon_levy": 10,
+      "index": 18
+    },
+    {
+      "identifier": "da65879e18e9",
+      "CompanyUri": "http://www.abs-ebri-project.uk/companyId/da65879e18e9",
+      "CompanyName": "da65879e18e9",
+      "RegistrationDate": "2014-12-24T00:00:01+00:00",
+      "PrimarySiteGeonamesID": "2635052",
+      "PrimarySiteLatLng": [ 51.70347, -2.90332 ],
+      "OrganisationType": "AncillaryServiceProvider",
+      "carbon_levy": 10,
+      "index": 19
+    },
+    {
+      "identifier": "c45dc8b91392",
+      "CompanyUri": "http://www.abs-ebri-project.uk/companyId/c45dc8b91392",
+      "CompanyName": "Rad Deliveries",
+      "RegistrationDate": "2015-11-05T10:00:00+00:00",
+      "PrimarySiteGeonamesID": "2636802",
+      "PrimarySiteLatLng": [ 52.54839, -1.2793 ],
+      "OrganisationType": "AncillaryServiceProvider",
+      "carbon_levy": 15,
+      "index": 20
+    },
+    {
+      "identifier": "d8fc97162ae8",
+      "CompanyUri": "http://www.abs-ebri-project.uk/companyId/d8fc97162ae8",
+      "CompanyName": "Pennywell Energy",
+      "RegistrationDate": "2013-10-14T00:00:01+00:00",
+      "PrimarySiteGeonamesID": "2637985",
+      "PrimarySiteLatLng": [ 52.67043, -2.37248 ],
+      "OrganisationType": "PlantOperator",
+      "environmental_emissions": 0.5,
+      "Sector": "Energy",
+      "InputFeedstock": [
+        {
+          "WasteType": "FoodWaste",
+          "QuantityInTonnes": 10,
+          "IngestionCycle": "weekly"
+        },
+        {
+          "WasteType": "AgriculturalResidue",
+          "QuantityInTonnes": 535,
+          "IngestionCycle": "weekly",
+          "PreferredFeedstock": true
+        },
+        {
+          "WasteType": "BrewerySludge",
+          "QuantityInTonnes": 35,
+          "IngestionCycle": "weekly"
+        }
+      ],
+      "Feedstock": [
+        {
+          "WasteType": "Digestate",
+          "QuantityInTonnes": 1,
+          "DeliveryCycle": "weekly"
+        }
+      ],
+      "EnergyProduction": [
+        {
+          "EnergyOutput": "Biogas",
+          "Efficiency": 0.65,
+          "YieldPerYearKwH": 85000,
+          "Distribution": {
+            "ElectricyKW": 1100,
+            "HeatKW": 1600
+          }
+        }
+      ],
+      "carbon_levy": -70,
+      "index": 21
+    },
+    {
+      "identifier": "d0daa6cf5f63",
+      "CompanyUri": "http://www.abs-ebri-project.uk/companyId/d0daa6cf5f63",
+      "CompanyName": "Dub Services",
+      "RegistrationDate": "2014-11-25T10:00:00+00:00",
+      "PrimarySiteGeonamesID": "6287369",
+      "PrimarySiteLatLng": [ 52.70297, -1.9378 ],
+      "OrganisationType": "AncillaryServiceProvider",
+      "carbon_levy": 10,
+      "index": 22
+    },
+    {
+      "identifier": "c66a477e04fe",
+      "CompanyUri": "http://www.abs-ebri-project.uk/companyId/c66a477e04fe",
+      "CompanyName": "Hednes Medical",
+      "RegistrationDate": "2013-10-14T00:00:01+00:00",
+      "PrimarySiteGeonamesID": "2647192",
+      "PrimarySiteLatLng": [ 52.71075, -1.99941 ],
+      "OrganisationType": "ServiceProvider",
+      "carbon_levy": 15,
+      "index": 23
+    },
+    {
+      "identifier": "d508c1417403",
+      "CompanyUri": "http://www.abs-ebri-project.uk/companyId/d508c1417403",
+      "CompanyName": "d508c1417403",
+      "PrimarySiteGeonamesID": "2634783",
+      "PrimarySiteLatLng": [ 52.11394, -1.28512],
+      "OrganisationType": "AncillaryServiceProvider",
+      "carbon_levy": 10,
+      "index": 24
+    },
+    {
+      "identifier": "d0659a0c1245",
+      "CompanyUri": "http://www.abs-ebri-project.uk/companyId/d0659a0c1245",
+      "CompanyName": "Highal",
+      "RegistrationDate": "2014-12-13T12:30:01+00:00",
+      "PrimarySiteGeonamesID": "2634613",
+      "PrimarySiteLatLng": [ 52.22955, -1.08371 ],
+      "OrganisationType": "AncillaryServiceProvider",
+      "carbon_levy": 10,
+      "index": 25
+    },
+    {
+      "identifier": "a37234056a4e",
+      "CompanyUri": "http://www.abs-ebri-project.uk/companyId/a37234056a4e",
+      "CompanyName": "Duds Consulting",
+      "RegistrationDate": "2014-11-15T10:00:00+00:00",
+      "PrimarySiteGeonamesID": "2634888",
+      "PrimarySiteLatLng": [ 52.3404, -0.82509 ],
+      "OrganisationType": "ServiceProvider",
+      "carbon_levy": 10,
+      "index": 26
+    },
+    {
+      "identifier": "db97e54db1af",
+      "CompanyUri": "http://www.abs-ebri-project.uk/companyId/db97e54db1af",
+      "CompanyName": "Rises Co.",
+      "RegistrationDate": "2013-11-10T13:53:27+00:00",
+      "PrimarySiteGeonamesID": "2650652",
+      "PrimarySiteLatLng": [ 52.75, -2.1 ],
+      "OrganisationType": "AncillaryServiceProvider",
+      "carbon_levy": 10,
+      "index": 27
+    }
+  ],
+  "links": [
+    {
+      "source": "hub_fc37c4e23a31",
+      "target": "d4f3feb480c6",
+      "weight": 4
+    },
+    {
+      "source": "hub_fc37c4e23a31",
+      "target": "d51d9bb28eed",
+      "weight": 1
+    },
+    {
+      "source": "hub_fc37c4e23a31",
+      "target": "daba29f2cd88",
+      "weight": 1
+    },
+    {
+      "source": "hub_fc37c4e23a31",
+      "target": "d9574537cf02",
+      "weight": 7
+    },
+    {
+      "source": "hub_fc37c4e23a31",
+      "target": "c498307335e4",
+      "weight": 1
+    },
+    {
+      "source": "hub_fc37c4e23a31",
+      "target": "d508c1417403",
+      "weight": 2
+    },
+    {
+      "source": "hub_fc37c4e23a31",
+      "target": "e1b5e5c96a13",
+      "weight": 6
+    },
+    {
+      "source": "hub_fc37c4e23a31",
+      "target": "e407634ed82a",
+      "weight": 5
+    },
+    {
+      "source": "hub_fc37c4e23a31",
+      "target": "b745af40cf37",
+      "weight": 2
+    },
+    {
+      "source": "hub_fc37c4e23a31",
+      "target": "b55835206820",
+      "weight": 2
+    },
+    {
+      "source": "hub_fc37c4e23a31",
+      "target": "c0e2e73924ae",
+      "weight": 2
+    },
+    {
+      "source": "hub_fc37c4e23a31",
+      "target": "a6438f4982e2",
+      "weight": 3
+    }, {
+      "source": "e0249e893f5d",
+      "target": "d4f3feb480c6",
+      "weight": 1
+    },
+    {
+      "source": "d4f3feb480c6",
+      "target": "db501d62cf62",
+      "weight": 2
+    },
+    {
+      "source": "e407634ed82a",
+      "target": "db501d62cf62",
+      "weight": 1
+    },
+    {
+      "source": "d9574537cf02",
+      "target": "db501d62cf62",
+      "weight": 7
+    },
+    {
+      "source": "hub_fc37c4e23a31",
+      "target": "db501d62cf62",
+      "weight": 1
+    },
+    {
+      "source": "d3a46712db86",
+      "target": "db501d62cf62",
+      "weight": 1
+    },
+    {
+      "source": "hub_fc37c4e23a31",
+      "target": "d3a46712db86",
+      "weight": 1
+    },
+    {
+      "source": "b1c820de4993",
+      "target": "db501d62cf62",
+      "weight": 1
+    },
+    {
+      "source": "hub_fc37c4e23a31",
+      "target": "a3ea0fd28397",
+      "weight": 1
+    },
+    {
+      "source": "hub_fc37c4e23a31",
+      "target": "da65879e18e9",
+      "weight": 1
+    },
+    {
+      "source": "hub_fc37c4e23a31",
+      "target": "c45dc8b91392",
+      "weight": 1
+    },
+    {
+      "source": "hub_fc37c4e23a31",
+      "target": "d8fc97162ae8",
+      "weight": 1
+    },
+    {
+      "source": "hub_fc37c4e23a31",
+      "target": "d0daa6cf5f63",
+      "weight": 1
+    },
+    {
+      "source": "a6438f4982e2",
+      "target": "db501d62cf62",
+      "weight": 2
+    },
+    {
+      "source": "e0249e893f5d",
+      "target": "db501d62cf62",
+      "weight": 1
+    },
+    {
+      "source": "d51d9bb28eed",
+      "target": "db501d62cf62",
+      "weight": 1
+    },
+    {
+      "source": "hub_fc37c4e23a31",
+      "target": "c66a477e04fe",
+      "weight": 1
+    },
+    {
+      "source": "hub_fc37c4e23a31",
+      "target": "e0249e893f5d",
+      "weight": 1
+    },
+    {
+      "source": "d4f3feb480c6",
+      "target": "e407634ed82a",
+      "weight": 2
+    },
+    {
+      "source": "a6438f4982e2",
+      "target": "e407634ed82a",
+      "weight": 1
+    },
+    {
+      "source": "hub_fc37c4e23a31",
+      "target": "b1c820de4993",
+      "weight": 1
+    },
+    {
+      "source": "c0e2e73924ae",
+      "target": "e407634ed82a",
+      "weight": 4
+    },
+    {
+      "source": "hub_fc37c4e23a31",
+      "target": "d0659a0c1245",
+      "weight": 4
+    },
+    {
+      "source": "daba29f2cd88",
+      "target": "e407634ed82a",
+      "weight": 1
+    },
+    {
+      "source": "hub_fc37c4e23a31",
+      "target": "a37234056a4e",
+      "weight": 1
+    },
+    {
+      "source": "e1b5e5c96a13",
+      "target": "e407634ed82a",
+      "weight": 3
+    },
+    {
+      "source": "hub_fc37c4e23a31",
+      "target": "db97e54db1af",
+      "weight": 1
+    },
+    {
+      "source": "hub_fc37c4e23a31",
+      "target": "e407634ed82a",
+      "weight": 5
+    },
+    {
+      "source": "c498307335e4",
+      "target": "e407634ed82a",
+      "weight": 2
+    },
+    {
+      "source": "d9574537cf02",
+      "target": "e407634ed82a",
+      "weight": 8
+    },
+    {
+      "source": "d4f3feb480c6",
+      "target": "d8fc97162ae8",
+      "weight": 7
+    },
+    {
+      "source": "d9574537cf02",
+      "target": "d8fc97162ae8",
+      "weight": 2
+    },
+    {
+      "source": "daba29f2cd88",
+      "target": "d8fc97162ae8",
+      "weight": 4
+    }
+  ]
+}
