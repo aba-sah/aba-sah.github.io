@@ -1,0 +1,233 @@
+{
+  "kpiScope" : {
+    "all": "All organisations",
+    "selection": "Selected organisations",
+    "selectedNode": "Selected organisation"
+  },
+  "kpiGroups" : {
+    "all": "standardKpis",
+    "selection": "selectionKpis",
+    "selectedNode": "focusKpis"
+  },
+  "standardKpis" : {
+    "network": "contact count",
+    "weighted_kpi": "estimated service cost",
+    "environmental_emissions": "GHG emissions",
+    "selected_node": "best fit, focus"
+  },
+  "valueCategories" : [
+    "ethical",
+    "environmental",
+    "political",
+    "legal",
+    "social",
+    "economic",
+    "operational",
+    "technological",
+    "location",
+    "convenience",
+    "not_defined"
+  ],
+  "focusKpis" : {
+    "cost": {
+      "label": "relative cost",
+      "value_category": [ "economic" ]
+    },
+    "transportation_cost": {
+      "label": "transportation cost",
+      "value_category": [ "economic" ]
+    },
+    "transportation_vehicle_capacity": {
+      "label": "transportation vehicle capacity",
+      "value_category": [ "operational"]
+    },
+    "operational_cost": {
+      "label": "operational cost",
+      "value_category": [ "economic"]
+    },
+    "investment_cost": {
+      "label": "investment cost",
+      "value_category": [ "economic" ]
+    },
+    "plant_capacity": {
+      "label": "plant capacity",
+      "value_category": [ "operational" ]
+    },
+    "netto_efficiency,": {
+      "label": "netto efficiency,",
+      "value_category": [ "operational", "economic" ]
+    },
+    "candidate_plant_locations": {
+      "label": "candidate plant locations",
+      "value_category": [ "location" ]
+    },
+    "plant_conversion_rate": {
+      "label": "plant conversion rate/factor",
+      "value_category": [ "operational" ]
+    },
+    "plant_lifespan": {
+      "label": "plant lifespan",
+      "value_category": ["operational"]
+    },
+    "feedstock_calorific_value": {
+      "label": "feedstock calorific value",
+      "value_category": [ "operational", "economic" ]
+    },
+    "feedstock_supply": {
+      "label": "feedstock supply",
+      "value_category": [ "operational" ]
+    },
+    "feedstock_delivery_quantity": {
+      "label": "feedstock delivery quantity",
+      "value_category": [ "operational" ]
+    },
+    "feedstock_storage_cost": {
+      "label": "feedstock storage cost",
+      "value_category": [ "economic", "operational" ]
+    },
+    "feedstock_unit_price": {
+      "label": "feedstock unit price",
+      "value_category": [ "economic" ]
+    },
+    "feedstock_delivery_frequency": {
+      "label": "feedstock delivery cycle",
+      "value_category": [ "operational" ]
+    },
+    "feedstock_ingestion_cycle": {
+      "label": "feedstock ingestion cycle",
+      "value_category": [ "operational" ]
+    },
+    "feedstock_source": {
+      "label": "feedstock source/location",
+      "value_category": [ "location", "ethical" ]
+    },
+    "labour_intensity": {
+      "label": "labour intensity",
+      "value_category": [ "operational" ]
+    },
+    "controllability": {
+      "label": "controllability",
+      "value_category": ["operational"]
+    },
+    "geo_distance" : {
+      "label": "location",
+      "value_category": [ "location" ],
+      "unit": "mi"
+    },
+    "energy_generation": {
+      "label": "energy generation",
+      "value_category": [ "operational" ]
+    },
+    "ecological_impact": {
+      "label": "ecological impact",
+      "value_category": [ "environmental" ]
+    },
+    "environmental_emissions": {
+      "label": "GHG emissions",
+      "value_category": [ "environmental" ],
+      "unit": "ton CO2/ton MSW"
+    },
+    "waste_incineration": {
+      "label": "waste incineration",
+      "value_category": ["environmental"]
+    },
+    "landfill_reduction": {
+      "label": "landfill reduction",
+      "value_category": ["environmental"]
+    },
+    "waste_reduction": {
+      "label": "waste reduction",
+      "value_category": [ "environmental" ]
+    },
+    "waste_generation": {
+      "label": "waste generation",
+      "value_category": ["environmental", "social" ]
+    },
+    "r_and_d": {
+      "label": "R & D",
+      "value_category": [ "technological", "ethical", "environmental" ]
+    },
+    "csr": {
+      "label": "CSR as strategy",
+      "value_category": [ "social", "ethical" ]
+    },
+    "unit_energy_price": {
+      "label": "unit energy price",
+      "value_category": [ "economic" ]
+    },
+    "interest_rates": {
+      "label": "interest rates",
+      "value_category": [ "economic" ]
+    },
+    "revenue": {
+      "label": "revenue (EHG)",
+      "value_category": [ "economic"]
+    },
+    "market_conditions": {
+      "label": "market conditions/factors",
+      "value_category": [ "economic" ]
+    },
+    "government_policy": {
+      "label": "government policy",
+      "value_category": [ "political" ]
+    },
+    "taxation": {
+      "label": "taxation",
+      "value_category": [ "political", "legal" ]
+    },
+    "incentives": {
+      "label": "incentives",
+      "value_category": [ "political", "legal", "ethical" ]
+    }
+  },
+    "focusKpiCategories" : {
+    "Hub": [
+    ],
+    "PlantOperator": [
+      "cost",
+      "feedstock_ingestion_cycle",
+      "feedstock_supply",
+      "feedstock_unit_price",
+      "energy_generation",
+      "waste_reduction",
+      "geo_distance",
+      "r_and_d"
+    ],
+    "ServiceProvider": [
+      "cost",
+      "feedstock_supply",
+      "waste_reduction",
+      "geo_distance",
+      "r_and_d",
+      "csr"
+    ],
+    "AncillaryServiceProvider": [
+      "cost",
+      "geo_distance",
+      "r_and_d",
+      "csr"
+    ],
+    "FeedstockSupplier": [
+      "cost",
+      "geo_distance",
+      "feedstock_delivery_quantity",
+      "feedstock_delivery_frequency",
+      "feedstock_unit_price",
+      "waste_reduction"
+    ],
+    "Unknown": [
+    ]
+  },
+    "metrics" : {
+      "geo_distance": {
+        "distance": {
+          "weighting": 2,
+          "unit": "imperial"
+        },
+        "duration": {
+          "weighting": 0.5,
+          "unit": "seconds"
+        }
+      }
+    }
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8">
+    <title>EBRI Vision Demonstrator</title>
+
+    <link rel="stylesheet" href="../../../../common_libs/stylefiles/dashboard.css" type="text/css" />
+    <style type="text/css">
+
+      circle.node {
+        stroke-width: 0px;
+      }
+
+      rect.fails_criterion {
+        fill: red;
+        stroke: gray;
+        stroke-width: 1.75px;
+      }
+
+      circle.root,
+      circle.sub-network {
+        stroke: lightgray;
+        stroke-width: 2px;
+      }
+
+      circle.unregistered {
+        stroke: black;
+        stroke-width: 0.25px;
+      }
+
+      .active {
+        stroke: rgba(155, 155, 0, 0.7);
+        fill: rgba(255, 0, 0, 0.1);
+        font-style: oblique;
+        font-size: larger;
+      }
+
+      .node-matrix {
+        stroke: rgba(155, 155, 0, 0.7); //#ff9999;//#ffb2b2;- lighter tint
+      }
+
+      rect.active,
+      rect.node-matrix {
+        stroke: rgba(155, 155, 0, 0.7);
+        stroke-width: 1.95px;
+      }
+
+      circle.active,
+      circle.node-matrix {
+        stroke: rgba(155, 155, 0, 0.7);
+        stroke-width: 2.55px;
+      }
+
+      circle.node-matrix-diagonal,
+      rect.node-matrix-diagonal {
+        stroke: rgba(155, 195, 55, 0.9);
+        stroke-width: 3.25px;
+      }
+
+      .failsMatch {
+        opacity: 0.25;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <p id="output"></p>
+
+    <div id="dashboard">
+      <table width="1380">
+        <tr>
+          <td>
+            <div><a name="network"></a>
+              <svg id="network" width="400" height="400" class="plot" style="border-radius:5px; border-style: solid; border-color:maroon; border-width: 1px;"></svg>
+            </div>
+          </td><td rowspan=2>
+            <div><a name="matrix"></a>
+              <svg id="matrix" width="800" height="800" class="plot" style="border-radius:5px; border-style: solid; border-color:maroon; border-width: 1px;"></svg>
+            </div>
+          </td><td rowspan=2 style="maxwidth:150px">
+            <div id="infoPanel" width="175" height="450" class="plot" style="border-radius:5px; border-style: solid; border-color:maroon; border-width: 1px; padding: 15px; visibility: hidden">
+              <span>Selected organisations</span>
+              <div id="infoBox" style="font-size: 0.8em; maxwidth:175px; minheight: 200px; max-height:750px; overflow: scroll;"><div>
+            </div>
+          </td>
+        </tr><tr>
+          <td>
+            <div>
+              <svg id="legend" width="150" height="80" class="plot" style="border-radius:5px; border-style: solid; border-color:maroon; border-width: 1px;"></svg>
+            </div>
+            <div id="matrixFacetsPanel" width="200" height="450" class="plot" style=" max-width:200px; border-radius:5px; border-style: solid; border-color:maroon; border-width: 1px; padding: 15px;">
+              Order by:
+              <div id="kpiOptions"></div>
+              <div><p></p></div>
+              <div><span id="kpiOptionDetail" style="font-size: 0.8em;"><span></div>
+              <!-- div id="clearSearch" style="padding: 15px;"><button class="clear_selection">Clear Selection</button></div -->
+            </div>
+          </td>
+        </tr><!-- tr>
+          <td colspan=3><div class="plot" style="border-radius:5px; border-style: solid; border-color:maroon; border-width: 1px;">
+            <svg id="plot" width="1600" height="750"></svg>
+          </div></td>
+        </tr -->
+     </table>
+    </div>
+
+
+    <script src="../../../../common_libs/js/ext/d3.v4.min.js"></script>
+    <!-- script src="../../../../common_libs/js/ext/d3-selection.js"></script -->
+    <script src="../../../../common_libs/js/ext/d3-scale-chromatic.v1.min.js"></script>
+    <script src="../../../../common_libs/js/ext/colorbrewer.js"></script>
+    <!-- script src="../../../../common_libs/js/ext/async.min.js"></script>
+    <script src="../../../../common_libs/js/ext/queue.min.js"></script -->
+    <script src="../../../../common_libs/js/ext/jquery-1.12.1.min.js"></script>
+    <!-- script src="../../../../common_libs/js/ext/FileSaver.min.js"></script -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEc6faYzovaPMbtYfZgdMF8sNXv-Q3sv4"></script>
+
+    <script src="../../../../common_libs/js/common.js"></script>
+    <script src="../../../../common_libs/js/format_d3v4.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/networks_common.js"></script>
+    <script src="../js/query/query_endpoint.js"></script>
+    <script src="../js/ebri_networks/network-matrix.js"></script>
+    <script src="../js/ebri_networks/data_objects.js"></script>
+    <script src="../js/ebri_networks/indicators.js"></script>
+
+    <script>
+
+      var dataFile = "../data/ebri/dummy_network.json";
+      var supplementaryFiles = new Map();
+      supplementaryFiles.set("kpis", "../data/ebri/kpis.json");
+      supplementaryFiles.set("geo_distances", "../data/ebri/geo_distances_matrix.csv");
+      supplementaryFiles.set("organisation_schema", "../data/ebri/organisation_schema.json");
+      var fileLoadOrder = [ "kpis", "geo_distances", "organisation_schema" ];
+
+      //drawPlot();
+      //drawMatrix(-1, baseUri, "", "organisation_type", hub, dataFile);
+      //parseNetworkDataFile(treeDepth, baseUri, identifier, encodingVariable, networkDataFile, supplementaryFiles, plotNetwork, plotMatrix, drawDataLabels, drawDataIcons) {
+      loadData(-1, "http://www.abs-ebri-project.uk", "identifier", "OrganisationType", dataFile, supplementaryFiles, fileLoadOrder, true, true, true, false, false, true);
+
+    </script>
+
+        <!--form id="text-options">
+            <label>Filename: <input type="text" class="filename" id="text-filename" placeholder="a plain document"/>.txt</label>
+            <input type="submit" value="Save"/>
+        </form ->
+
+  </body>
+</html>

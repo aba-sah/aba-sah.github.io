@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:so="http://schema.org/"
+  xmlns:ae="http://www.abs-ebri-project.uk/abs-ebri#"
+  xmlns:org="http://www.w3.org/ns/org#"
+  xmlns:gn="http://www.geonames.org/ontology#"
+  xmlns:wgs="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  >
+
+
+  <rdf:Description rdf:about="http://www.abs-ebri-project.uk/EnergyMarket/clean_energy">
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.abs-ebri-project.uk/EnergyMarket/">
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.abs-ebri-project.uk/EnergyMarket/">
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.abs-ebri-project.uk/EnergyMarket/">
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.abs-ebri-project.uk/EnergyMarket/pulp_and_paper">
+  </rdf:Description>
+
+
+</rdf:RDF>

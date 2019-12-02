@@ -1,0 +1,261 @@
+
+/*
+ * colour scheme
+ */
+:root {
+  --trendColourA: #21637d; /*/=730100"; // magenta */
+
+  --chartDefaultBackground: #f2f2f2;
+
+  --lato_maroon1: #730100;
+
+  --lato_dark_blue1: #21637d;
+  --lato_dark_blue2: #4d8297;
+  --lato_dark_blue5: #a6c1cb;
+  --lato_dark_blue6: #d3e0e5;
+
+  --lato_blue_grey1: #506c6f;
+  --lato_blue_grey2: #6a6a6a;
+  --lato_blue_grey4: #96a7a9;
+  --lato_blue_grey6: #dce2e2;
+
+  --lato_dark_grey1: #454545;
+
+  --colourMeInactive : #b5b5b5; /*",//dadada; //dce2e2",// //"lightgrey"*/
+}
+
+/*
+ * other...
+ */
+svg {
+  font: 10px sans-serif;
+  /* fill: var(--chartDefaultBackground); */
+}
+body {
+  background: #f2f2f2; /*var(--chartDefaultBackground);*/
+  color: #730100; /*var(--lato_maroon1);*/
+}
+
+.edsa_banner {
+  /* min-height: 250px; /*- being ignored */
+  background: #506c6f;/*var(--lato_dark_grey1);*/
+  color: white;
+  font-weight: 100;
+  /*font-size: 225%; // otherwise causes issues in nesting... */
+}
+
+.plot {
+  background: #f2f2f2; /*var(--chartDefaultBackground);*/
+}
+
+.matrixLocationPane {
+  background: #dce2e2;/*var(--lightgrey);*/
+  color: slategray;
+}
+
+.solidArc {
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+/* .x.axis path, {
+  display: none;
+} */
+.axis path,
+.axis line,
+.axis1 path,
+.axis1 line {
+  fill: none;
+  stroke: #b6b6b6;  /* #000; */
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  /* text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;  // till able to get override to work... */
+  cursor: move;
+}
+
+.tick line {
+  /*fill: none;
+  stroke: none; */
+}
+.tick text {
+  fill: #999;
+}
+
+
+.aster-score {
+  line-height: 2;
+  font-weight: bold;
+  font-size: 125%;
+}
+
+/* doesn't work - not obvious to me why :S
+hover-line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+ */
+
+polyline {
+  opacity: .3;
+  stroke: black;
+  stroke-width: 2px;
+  fill: none;
+}
+
+rect {/*
+   fill: white; - blocks colour-coding in geo view; cannot see where else used apart from // coords, and that is ok using the bkgnd' --> */
+  /* layer on top of activity_line in d3v4 - can't find where to override so keeping coded out */
+  foreground: white;
+}
+circle {
+  fill: steelblue;
+  opacity: .75;
+}
+
+
+.area {
+  fill: none;
+  stroke: lightsteelblue;
+  clip-path: url(#clip);
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+  pointer-events: all;
+}
+
+.node text {
+  font: 10px sans-serif;
+}
+
+.node .selected {
+  stroke: red;
+}
+
+.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+
+.brush
+.extent {
+  stroke: red;/* #fff; */
+  fill: transparent;
+  fill-opacity: .125;/*  .3; */
+  shape-rendering: crispEdges;
+}
+
+rect.pane {
+  cursor: move;
+  fill: yellow;
+  stroke: green;
+  pointer-events: all;
+}
+
+
+.legend-box {
+  cursor: pointer;
+}
+
+#mouse-tracker {
+  stroke: #E6E7E8;
+  stroke-width: 1px;
+}
+
+.hover-line {
+  stroke: #E6E7E8; /* slategray */
+  fill: none;
+  stroke-width: 1px;
+  left: 10px;
+  shape-rendering: crispEdges;
+/*        opacity: 1e-6;  // hides...overrides setting in js file... */
+}
+
+.hover-text {
+  stroke: none;
+  font-size: 24px;
+  font-weight: bold;
+  fill: #000000;
+}
+
+/** //-coords */
+.background path {
+  fill: none;
+  stroke: none; /* #ddd */
+  stroke-opacity: 0.3;  /*.9;*/
+  shape-rendering: crispEdges;
+}
+
+.foreground path {
+  fill: none;
+  /*stroke: steelblue;*/
+  stroke-opacity: .9;
+}
+/** end //-coords */
+
+
+.table {
+  position: absolute;
+  text-align: center;
+  font: 12px sans-serif;
+  background: #f2f2f2; /*var(--chartDefaultBackground);*/
+  border: 0px;
+  border-radius: 8px;
+  /* pointer-events: none; *//* otherwise does not recognise clicks and holds*/
+}
+tr {
+  vertical-align: top;
+  padding: 0px;/* 5px; */
+}
+td {
+  text-align: left;
+  font: 16px sans-serif;
+  padding: 0px; /* 5px; */
+  /*width: 180px;*/
+}
+
+.selectorPanel{
+  overflow: auto;
+  width: 200px;
+  height: 900px;
+  background: #506c6f;  /*var(--lato_blue_grey1);*/
+  border: 3px solid #336699;
+  padding-left: 5px;
+}
+
+.selector-box {
+  overflow: auto;
+  width: 330px; /*235px;*/
+  /* background: var(--lato_blue_grey6); /*rgba(#000, .5)*/
+  max-height: 120px;
+  /* min-height: 50px; */
+  border: 1px solid #b5b5b5;  /*var(--colourMeInactive);*/
+  border-radius: 8px;
+  padding-left: 1px
+/*        padding-top: 15px */
+}
+
+.autoscroll-box {
+  overflow: auto;
+  width: 250px;
+  height: 400px;
+}
+
+.overrideCss {  /* does not work...'*/
+  text-shadow: none !important;
+}
+/*      .tooltip {
+//        font-weight: normal;  // redundant...
+//      }
+*/

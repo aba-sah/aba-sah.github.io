@@ -1,0 +1,57 @@
+{
+  "fields": [
+    { "id": "CompanyName",
+      "type": "text", 
+      "label": "Company name",
+      "display": true
+    },
+    {
+      "id": "identifier",
+      "type": "text",
+      "label": "ID"
+    },
+    { "id": "CompanyUri",
+      "type": "text", 
+      "label": "URI"
+    },
+    {
+      "id": "OrganisationType",
+      "type": "text",
+      "label": "Organisation type",
+      "display": true
+    },
+    {
+      "id": "PrimarySiteGeonamesID",
+      "type": "text",
+      "label": "Geonames ID"
+    },
+    {
+      "id": "PrimarySiteLatLng",
+      "type": "text",
+      "label": "Lat/Lng"
+    },
+    {
+      "id": "RegistrationDate",
+      "type": "text",
+      "label": "Joined network",
+      "display": true
+    },
+    {
+      "id": "carbon_levy",
+      "type": "text",
+      "label": "Carbon levy",
+      "display": true
+    },
+    {
+      "id": "NetworkConnections",
+      "type": "text",
+      "label": "Network connections",
+      "display": true
+    },
+    {
+      "id": "geo_distance",
+      "type": "text",
+      "label": "Distance from"
+    }
+  ]
+}
