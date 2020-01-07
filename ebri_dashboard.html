@@ -116,7 +116,7 @@
     <!-- script src="twothreethree/common_libs/js/ext/FileSaver.min.js"></script -->
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEc6faYzovaPMbtYfZgdMF8sNXv-Q3sv4"></script>
 
-    <script src="twothreethreecommon_libs/js/common.js"></script>
+    <script src="twothreethree/common_libs/js/common.js"></script>
     <script src="twothreethree/common_libs/js/format_d3v4.js"></script>
     <script src="twothreethree/dashboard/js/common.js"></script>
     <script src="twothreethree/dashboard/js/networks_common.js"></script>
@@ -129,9 +129,9 @@
 
       var dataFile = "twothreethree/dashboard/data/ebri/dummy_network.json";
       var supplementaryFiles = new Map();
-      supplementaryFiles.set("kpis", "../data/ebri/kpis.json");
-      supplementaryFiles.set("geo_distances", "../data/ebri/geo_distances_matrix.csv");
-      supplementaryFiles.set("organisation_schema", "../data/ebri/organisation_schema.json");
+      supplementaryFiles.set("kpis", "twothreethree/dashboard/data/ebri/kpis.json");
+      supplementaryFiles.set("geo_distances", "twothreethree/dashboard/data/ebri/geo_distances_matrix.csv");
+      supplementaryFiles.set("organisation_schema", "twothreethree/dashboard/data/ebri/organisation_schema.json");
       var fileLoadOrder = [ "kpis", "geo_distances", "organisation_schema" ];
 
       //drawPlot();
