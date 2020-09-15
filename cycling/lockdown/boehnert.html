@@ -20,7 +20,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     
     <script>
-      var map = L.map('map').setView([29.7628, -95.3831], 10);
+      //var map = L.map('map').setView([29.7628, -95.3831], 10);
+      var map = L.map('map').setView([55.9967, -3.2655], 10);
       //var map = L.map('map').setView([51.505, -0.09], 13)
 
 //        L.tileLayer('https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
@@ -41,7 +42,7 @@
           accessToken: 'pk.eyJ1IjoiYWJhLXNhaCIsImEiOiJja2Y0YzhidjgwNTc3MzBydnBwMGQ1NTllIn0.zeOI7q1hPCmH1xtttK_n0g'
       }).addTo(map);
 
-        $.getJSON("https://rawgit.com/boehnert/GeoJson/master/coolPlaces.geojson", function(response) {
+        $.getJSON("may.geojson", function(response) {
             console.log("response", response);
             //var geojsonLayer = new L.GeoJSON(response);
             //geojsonLayer.addTo(map);    
