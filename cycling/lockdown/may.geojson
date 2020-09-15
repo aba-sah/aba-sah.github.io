@@ -1,0 +1,37 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.298972,
+          55.979983
+        ]
+      },
+      "properties": {
+        "marker-symbol": "viewpoint",
+        "marker-size": "small",
+        "name": "Cramond Foreshore Covid Caterpillar",
+        "address": "Cramond Foreshore"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.300990,
+          55.979730
+        ]
+      },
+      "properties": {
+        "marker-symbol": "viewpoint",
+        "marker-size": "small",
+        "name": "Seagull on the wing - Cramond Foreshore",
+        "address": "Cramond Foreshore"
+      }
+    }
+  ]
+}
