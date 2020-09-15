@@ -46,7 +46,7 @@
       $.getJSON("may.geojson", function(response) {
         console.log("response", response);
         
-        var geojsonLayer = L.geoJSON().addTo(map);
+        var geojsonLayer = L.geoJSON()//.addTo(map);
         geojsonLayer.addData(response);
          
         L.geoJSON(geojsonLayer, {
