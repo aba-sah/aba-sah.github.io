@@ -23,8 +23,7 @@
       
       function onEachFeature(feature, layer) {
         if (feature.properties && feature.properties.title) {
-          layer.bindPopup(feature.properties.title);
-          //layer.bindPopup(feature.properties.description);
+          layer.bindPopup(feature.properties.title + "<br />" + feature.properties.description);
         }
       }
 
@@ -47,15 +46,17 @@
       $.getJSON("may.geojson", function(response) {
         console.log("response", response);
         
-        var geojsonLayer = //L.geoJSON().addTo(map);
-            L.geoJSON( {
-              onEachFeature: onEachFeature
-            }).addTo(map);
+        var geojsonLayer = L.geoJSON().addTo(map);
         geojsonLayer.addData(response);
          
-        //L.geoJSON(geojsonLayer, {
-        //  onEachFeature: onEachFeature
-        //}).addTo(map);
+        L.geoJSON(geojsonLayer, {
+
+          pointToLayer: function (feature, latlng) {
+            return L.marker(latlng, {icon: feature.properties.marker-symbol});
+          },
+
+          onEachFeature: onEachFeature
+        }).addTo(map);
       
       });
       
