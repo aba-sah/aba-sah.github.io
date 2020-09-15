@@ -37,23 +37,22 @@
       
       $.getJSON("may.geojson", function(response) {
         console.log("response", response);
-        //var geojsonLayer = new L.GeoJSON(response);
-        //geojsonLayer.addTo(map);    
-
+        
         var geojsonLayer = L.geoJSON().addTo(map);
         geojsonLayer.addData(response);
        
-        L.geoJSON(response, {
-          onEachFeature: onEachFeature
-        }).addTo(map);
      });
       
       function onEachFeature(feature, layer) {
         if (feature.properties && feature.properties.title) {
           layer.bindPopup(feature.properties.title);
-          layer.bindPopup(feature.properties.description);
+          //layer.bindPopup(feature.properties.description);
         }
       }
+        
+      L.geoJSON(geojsonLayer, {
+        onEachFeature: onEachFeature
+      }).addTo(map);
       
     </script>
 </body>
