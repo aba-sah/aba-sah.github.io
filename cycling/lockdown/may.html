@@ -48,12 +48,12 @@
         geojsonLayer.addData(response);
       });
       
-      //function onEachFeature(feature, layer) {
-      //  if (feature.properties && feature.properties.title) {
-      //    layer.bindPopup(feature.properties.title);
-      //    layer.bindPopup(feature.properties.description);
-      //  }
-      //}
+      function onEachFeature(feature, layer) {
+        if (feature.properties && feature.properties.title) {
+          layer.bindPopup(feature.properties.title);
+          layer.bindPopup(feature.properties.description);
+        }
+      }
       
     </script>
 </body>
