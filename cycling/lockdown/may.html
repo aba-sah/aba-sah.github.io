@@ -47,12 +47,15 @@
       $.getJSON("may.geojson", function(response) {
         console.log("response", response);
         
-        var geojsonLayer = L.geoJSON().addTo(map);
+        var geojsonLayer = //L.geoJSON().addTo(map);
+            L.geoJSON( {
+              onEachFeature: onEachFeature
+            }).addTo(map);
         geojsonLayer.addData(response);
          
-        L.geoJSON(geojsonLayer, {
-          onEachFeature: onEachFeature
-        }).addTo(map);
+        //L.geoJSON(geojsonLayer, {
+        //  onEachFeature: onEachFeature
+        //}).addTo(map);
       
       });
       
