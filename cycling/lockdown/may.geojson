@@ -1,3 +1,4 @@
+
 {
   "type": "FeatureCollection",
   "features": [
@@ -11,9 +12,11 @@
         ]
       },
       "properties": {
+        "title": "Cramond Foreshore Covid Caterpillar",
+        "description": "One of the caterpillar segments - painted rocks joined up at the Cramond Foreshore with messages inspired by events during lockdown, or living through lockdown. Or just being artistic.",
         "marker-symbol": "viewpoint",
         "marker-size": "small",
-        "name": "Cramond Foreshore Covid Caterpillar",
+        "name": "Cramond Foreshore",
         "address": "Cramond Foreshore"
       }
     },
@@ -27,9 +30,10 @@
         ]
       },
       "properties": {
+        "title": "Seagull on the wing - Cramond",
         "marker-symbol": "viewpoint",
         "marker-size": "small",
-        "name": "Seagull on the wing - Cramond Foreshore",
+        "name": "Cramond Foreshore",
         "address": "Cramond Foreshore"
       }
     }
