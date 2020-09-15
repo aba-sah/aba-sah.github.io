@@ -50,7 +50,7 @@
         geojsonLayer.addData(response);
          
         L.geoJSON(geojsonLayer, {
-          console.log("in fn ", feature);
+          console.log(feature);
 
           pointToLayer: function (feature, latlng) {
             return L.marker(latlng, {icon: feature.properties.marker-symbol});
