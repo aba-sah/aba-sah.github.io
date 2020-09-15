@@ -34,9 +34,9 @@
           accessToken: 'pk.eyJ1IjoiYWJhLXNhaCIsImEiOiJja2Y0YzhidjgwNTc3MzBydnBwMGQ1NTllIn0.zeOI7q1hPCmH1xtttK_n0g'
       }).addTo(map);
       
-      L.geoJSON(geojsonFeature, {
-        onEachFeature: onEachFeature
-      }).addTo(map);
+      //L.geoJSON(geojsonFeature, {
+      //  onEachFeature: onEachFeature
+      //}).addTo(map);
 
       
       $.getJSON("may.geojson", function(response) {
@@ -48,12 +48,12 @@
         geojsonLayer.addData(response);
       });
       
-      function onEachFeature(feature, layer) {
-        if (feature.properties && feature.properties.title) {
-          layer.bindPopup(feature.properties.title);
-          layer.bindPopup(feature.properties.description);
-        }
-      }
+      //function onEachFeature(feature, layer) {
+      //  if (feature.properties && feature.properties.title) {
+      //    layer.bindPopup(feature.properties.title);
+      //    layer.bindPopup(feature.properties.description);
+      //  }
+      //}
       
     </script>
 </body>
