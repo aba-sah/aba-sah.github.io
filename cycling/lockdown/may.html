@@ -20,7 +20,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     
     <script>
-      var map = L.map('map').setView([55.9967, -3.2655], 10);
+      var map = L.map('map').setView([55.9967, -3.2655], 15);
       //var map = L.map('map').setView([55.9761, -3.29465], 10);
       
       L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
@@ -33,10 +33,6 @@
           zoomOffset: -1,
           accessToken: 'pk.eyJ1IjoiYWJhLXNhaCIsImEiOiJja2Y0YzhidjgwNTc3MzBydnBwMGQ1NTllIn0.zeOI7q1hPCmH1xtttK_n0g'
       }).addTo(map);
-      
-      //L.geoJSON(geojsonFeature, {
-      //  onEachFeature: onEachFeature
-      //}).addTo(map);
 
       
       $.getJSON("may.geojson", function(response) {
@@ -46,7 +42,11 @@
 
         var geojsonLayer = L.geoJSON().addTo(map);
         geojsonLayer.addData(response);
-      });
+       
+        L.geoJSON(geojsonFeature, {
+          onEachFeature: onEachFeature
+        }).addTo(map);
+     });
       
       function onEachFeature(feature, layer) {
         if (feature.properties && feature.properties.title) {
