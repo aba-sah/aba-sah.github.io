@@ -1,14 +1,19 @@
 <html>
   <head>
-  <!-- link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
-  <link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.2/dist/leaflet.css" / -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-     integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-     crossorigin=""/>
-
+    <!-- link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+    <link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.2/dist/leaflet.css" / -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+       integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+       crossorigin=""/>
+    <style>
+      #map {
+        width: 900px;
+        height: 600px;
+      }
+    </style>
   </head>
   <body>
-    <div id="map" style="width: 900px; height: 600px"></div>
+    <div id="map"></div>
 
     <!-- script src="http://code.jquery.com/jquery-2.1.0.min.js"></script -->
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
@@ -27,7 +32,7 @@
           layer.bindPopup(feature.properties.title + "<br />" + feature.properties.description);
         }
       }
-
+ 
       
       //var map = L.map('map').setView([55.9967, -3.2655], 10);
       var map = L.map('map').setView([55.9761, -3.29465], 15);
@@ -52,13 +57,13 @@
          
         L.geoJSON(geojsonLayer, {
           //console.log("geojsonLayer");
+
+          onEachFeature: onEachFeature,
         
           pointToLayer: function (feature, latlng) {
             return L.marker(latlng, {icon: feature.properties.marker-symbol});
-          },
-
-          onEachFeature: onEachFeature
-        })//.addTo(map);
+          }
+        });
       
       });
       
