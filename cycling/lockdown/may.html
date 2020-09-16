@@ -29,7 +29,8 @@
       
       function onEachFeature(feature, layer) {
         if (feature.properties && feature.properties.title) {
-          layer.bindPopup(feature.properties.title + "<br />" + feature.properties.description);
+          layer.bindPopup(feature.properties.title + "<br />" + feature.properties.description)
+                .openPopup();
         }
       }
  
