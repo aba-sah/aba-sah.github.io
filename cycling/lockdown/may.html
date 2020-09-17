@@ -69,7 +69,11 @@
               //icon: feature.properties.marker_symbol 
             })
             .on('mouseover', function() {
-              this.bindPopup(feature.properties.title + "<br />" + feature.properties.description)
+              var popup = "<h4>" + feature.properties.title + "</h4><hr>";
+              if (feature.properties.description && (feature.properties.description != "")
+                popup += "<br /><i>" + feature.properties.description + "</i>";
+                  
+              this.bindPopup(popup);  //"<h4>" + feature.properties.title + "</h4><hr><br /><i>" + feature.properties.description + "</i>")
                   .openPopup();
             });
           }
