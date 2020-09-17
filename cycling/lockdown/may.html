@@ -55,8 +55,9 @@
         console.log("response", response);
         
         
-        var geojsonLayer = L.geoJSON().addTo(map);
-        //geojsonLayer.addData(response);
+        var geojsonLayer = L.geoJSON()
+                            //.addTo(map);
+        geojsonLayer.addData(response);
         
         map.fitBounds(geojsonLayer.getBounds(), {
           padding: [200, 200]
@@ -68,7 +69,6 @@
             return feature.properties.category == "covid_caterpillar";
           },
 
-        /*
 
           //onEachFeature: onEachFeature,
         
@@ -76,12 +76,11 @@
             return L.marker(latlng, { 
               icon: feature.properties.marker_symbol 
             })
-            .on('mouseover', function() {
-              this.bindPopup(feature.properties.title)
-                  .openPopup();
-            });
+//            .on('mouseover', function() {
+//              this.bindPopup(feature.properties.title)
+//                  .openPopup();
+//            });
           }
- */
         });
         covidCaterpillars.addTo(map);
  
