@@ -58,6 +58,26 @@
         });
 
 
+ /*
+        var covidCaterpillars = L.geoJson(response, {
+          //filter: function(feature, layer) {
+          //  return feature.properties.category == "covid_caterpillar";
+          //},
+
+          //onEachFeature: onEachFeature,
+        
+          pointToLayer: function (feature, latlng) {
+            return L.marker(latlng, { 
+              //icon: feature.properties.marker_symbol 
+            })
+            .on('mouseover', function() {
+              this.bindPopup(feature.properties.title)
+                  .openPopup();
+            });
+          }
+        });
+        covidCaterpillars.addTo(map);
+*/
         var covidCaterpillars = L.geoJson(response, {
           filter: function(feature, layer) {
             return feature.properties.category == "covid_caterpillar";
@@ -77,23 +97,6 @@
         });
         covidCaterpillars.addTo(map);
  
- /*
-        L.geoJSON(geojsonLayer, {
-          //console.log("geojsonLayer");
-
-          //onEachFeature: onEachFeature,
-        
-          pointToLayer: function (feature, latlng) {
-            return L.marker(latlng, { 
-              icon: feature.properties.marker_symbol 
-            })
-            .on('mouseover', function() {
-              this.bindPopup(feature.properties.title)
-                  .openPopup();
-            });
-          }
-        }); // end L.geoJSON(geojsonLayer
-      */
       });
       
       
