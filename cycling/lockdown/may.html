@@ -73,7 +73,7 @@
         
           pointToLayer: function (feature, latlng) {
             return L.marker(latlng, { 
-              icon: feature.properties.marker_symbol 
+              //icon: feature.properties.marker_symbol 
             })
             .on('mouseover', function() {
               this.bindPopup(feature.properties.title)
