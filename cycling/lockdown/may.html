@@ -54,14 +54,14 @@
       $.getJSON("may.geojson", function(response) {
         console.log("response", response);
         
-        /*
+        
         var geojsonLayer = L.geoJSON().addTo(map);
         //geojsonLayer.addData(response);
         
         map.fitBounds(geojsonLayer.getBounds(), {
           padding: [200, 200]
         });
-        */
+
         
         var covidCaterpillars = L.geoJson(response, {
           filter: function(feature, layer) {
