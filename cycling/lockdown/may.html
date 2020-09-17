@@ -60,7 +60,7 @@
         geojsonLayer.addData(response);
         
         map.fitBounds(geojsonLayer.getBounds(), {
-          padding: [500, 500]
+          padding: [20, 20]
         });
 
 
@@ -74,7 +74,7 @@
         
           pointToLayer: function (feature, latlng) {
             return L.marker(latlng, { 
-              //icon: feature.properties.marker_symbol 
+              icon: feature.properties.marker_symbol 
             })
             .on('mouseover', function() {
               this.bindPopup(feature.properties.title)
