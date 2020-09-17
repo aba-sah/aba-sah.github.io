@@ -56,18 +56,19 @@
         
         
         var geojsonLayer = L.geoJSON().addTo(map);
-        geojsonLayer.addData(response);
+        //geojsonLayer.addData(response);
         
         map.fitBounds(geojsonLayer.getBounds(), {
           padding: [200, 200]
         });
 
-        /*
+
         var covidCaterpillars = L.geoJson(response, {
           filter: function(feature, layer) {
             return feature.properties.category == "covid_caterpillar";
           },
 
+        /*
 
           //onEachFeature: onEachFeature,
         
@@ -80,10 +81,11 @@
                   .openPopup();
             });
           }
+ */
         });
         covidCaterpillars.addTo(map);
- */
-        /*
+ 
+ /*
         L.geoJSON(geojsonLayer, {
           //console.log("geojsonLayer");
 
