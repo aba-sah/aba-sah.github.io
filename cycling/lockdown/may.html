@@ -25,11 +25,12 @@
     <!-- script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     
+    
     <script>
       
-      function onEachFeature(feature, layer) {
+      function onEachFeature(feature, marker) {
         if (feature.properties && feature.properties.title) {
-          layer.bindPopup(feature.properties.title + "<br />" + feature.properties.description)
+          marker.bindPopup(feature.properties.title + "<br />" + feature.properties.description)
                 .openPopup();
         }
       }
@@ -55,16 +56,33 @@
         
         var geojsonLayer = L.geoJSON().addTo(map);
         geojsonLayer.addData(response);
+        
+        map.fitBounds(geojsonLayer.getBounds(), {
+          padding: [50, 50]
+        });
+        
+        var covidCaterpillars = L.geoJson(data, {
+          filter: function(feature, layer) {
+            return feature.properties.category == "covid_caterpillar";
+          }
+        });
+        covidCaterpillars.addTo(map)
          
         L.geoJSON(geojsonLayer, {
           //console.log("geojsonLayer");
 
-          onEachFeature: onEachFeature,
+          //onEachFeature: onEachFeature,
         
           pointToLayer: function (feature, latlng) {
-            return L.marker(latlng, {icon: feature.properties.marker-symbol});
+            return L.marker(latlng, { 
+              icon: feature.properties.marker_symbol 
+            })
+            .on('mouseover', function() {
+              this.bindPopup(feature.properties.Name)
+                  .openPopup();
+            });
           }
-        });
+        }); // end L.geoJSON(geojsonLayer
       
       });
       
