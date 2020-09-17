@@ -56,7 +56,7 @@
         
         
         var geojsonLayer = L.geoJSON().addTo(map);
-        //geojsonLayer.addData(response);
+        geojsonLayer.addData(response);
         
         map.fitBounds(geojsonLayer.getBounds(), {
           padding: [200, 200]
