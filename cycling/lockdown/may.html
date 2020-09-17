@@ -76,9 +76,10 @@
             .on('mouseover', function() {
               this.bindPopup(feature.properties.Name)
                   .openPopup();
-            
+            });
+          }
         });
-        covidCaterpillars.addTo(map)
+        covidCaterpillars.addTo(map);
  
         /*
         L.geoJSON(geojsonLayer, {
@@ -96,9 +97,9 @@
             });
           }
         }); // end L.geoJSON(geojsonLayer
-      
-      });
       */
+      });
+      
       
     </script>
 </body>
