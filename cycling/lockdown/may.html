@@ -58,7 +58,7 @@
         geojsonLayer.addData(response);
         
         map.fitBounds(geojsonLayer.getBounds(), {
-          padding: [50, 50]
+          padding: [200, 200]
         });
         
         var covidCaterpillars = L.geoJson(response, {
