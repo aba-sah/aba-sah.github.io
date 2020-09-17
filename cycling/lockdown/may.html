@@ -60,7 +60,7 @@
         geojsonLayer.addData(response);
         
         map.fitBounds(geojsonLayer.getBounds(), {
-          padding: [200, 200]
+          padding: [500, 500]
         });
 
 
@@ -76,10 +76,10 @@
             return L.marker(latlng, { 
               icon: feature.properties.marker_symbol 
             })
-//            .on('mouseover', function() {
-//              this.bindPopup(feature.properties.title)
-//                  .openPopup();
-//            });
+            .on('mouseover', function() {
+              this.bindPopup(feature.properties.title)
+                  .openPopup();
+            });
           }
         });
         covidCaterpillars.addTo(map);
