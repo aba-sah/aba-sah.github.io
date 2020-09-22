@@ -19,7 +19,12 @@
   </head>
   <body>
     <div id="map"></div>
-    <script>
+    <script
+      /**
+       * references:
+       * http://zevross.com/blog/2014/10/28/tips-for-creating-leafleft-js-maps/
+      */
+      
       /*
       function onEachFeature(feature, marker) {
         if (feature.properties && feature.properties.title) {
@@ -31,7 +36,7 @@
  
       
       //var map = L.map('map').setView([55.9967, -3.2655], 10);
-      var map = L.map('map').setView([55.9761, -3.29465], 15);
+      var map = L.map('map'); //.setView([55.9761, -3.29465], 15);
       
       L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
           attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' + 
@@ -51,7 +56,7 @@
         
         //var geojsonLayer = L.geoJSON()
         //                    //.addTo(map);
-
+        //geojsonLayer.addData(response);
 
  
         var geojsonLayer = L.geoJson(response, {
@@ -73,18 +78,17 @@
           }
         });
         geojsonLayer.addTo(map);
-        //geojsonLayer.addData(response);
        
         map.fitBounds(geojsonLayer.getBounds(), {
-          padding: [20, 20]
+          padding: [200, 200]
         });
 
-/*
+
         var covidCaterpillars = L.geoJson(response, {
             filter: function(feature, layer) {
             return feature.properties.category == "covid_caterpillar";
           },
-      
+/*      
           //onEachFeature: onEachFeature,
         
           pointToLayer: function (feature, latlng) {
@@ -100,9 +104,10 @@
                   .openPopup();
             });
           }
+*/
         });
         covidCaterpillars.addTo(map);
-*/
+
         
       });
       
