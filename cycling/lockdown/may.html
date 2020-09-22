@@ -70,10 +70,10 @@
         });
 
 
-/*        var covidCaterpillars = L.geoJson(response, {
+        var covidCaterpillars = L.geoJson(response, {
             filter: function(feature, layer) {
             return feature.properties.category == "covid_caterpillar";
-          },
+          }/*,
       
           //onEachFeature: onEachFeature,
         
@@ -90,10 +90,10 @@
                   .openPopup();
             });
           }
-
+*/
         });
         covidCaterpillars.addTo(map);
-*/
+
         
       });
       
