@@ -59,7 +59,7 @@
         });
 
 
- 
+/* 
         var covidCaterpillars = L.geoJson(response, {
         
           //onEachFeature: onEachFeature,
@@ -69,35 +69,41 @@
               //icon: feature.properties.marker_symbol 
             })
             .on('mouseover', function() {
-              var popup = "<h4>" + feature.properties.title + "</h4><hr>";
+              var popup = "<h4>" + feature.properties.title + "</h4>";
               if (feature.properties.description && (feature.properties.description != ""))
-                popup += "<br /><i>" + feature.properties.description + "</i>";
+                popup += "<hr><br /><i>" + feature.properties.description + "</i>";
                   
-              this.bindPopup(popup)  //"<h4>" + feature.properties.title + "</h4><hr><br /><i>" + feature.properties.description + "</i>")
-                  .openPopup();
-            });
-          }
-        });
-        covidCaterpillars.addTo(map);
-
-/*
-        var covidCaterpillars = L.geoJson(response, {
-          filter: function(feature, layer) {
-            return feature.properties.category == "covid_caterpillar";
-          },
-
-          pointToLayer: function (feature, latlng) {
-            return L.marker(latlng, { 
-              //icon: feature.properties.marker_symbol 
-            })
-            .on('mouseover', function() {
-              this.bindPopup(feature.properties.title)
+              this.bindPopup(popup)  
                   .openPopup();
             });
           }
         });
         covidCaterpillars.addTo(map);
 */
+/**/
+        var covidCaterpillars = L.geoJson(response, {
+            filter: function(feature, layer) {
+            return feature.properties.category == "covid_caterpillar";
+          },
+      
+          //onEachFeature: onEachFeature,
+        
+          pointToLayer: function (feature, latlng) {
+            return L.marker(latlng, { 
+              //icon: feature.properties.marker_symbol 
+            })
+            .on('mouseover', function() {
+              var popup = "<h4>" + feature.properties.title + "</h4>";
+              if (feature.properties.description && (feature.properties.description != ""))
+                popup += "<hr><br /><i>" + feature.properties.description + "</i>";
+                  
+              this.bindPopup(popup)  
+                  .openPopup();
+            });
+          }
+        });
+        covidCaterpillars.addTo(map);
+/**/
         
       });
       
