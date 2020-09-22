@@ -19,7 +19,6 @@
   </head>
   <body>
     <div id="map"></div>
-    <iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/4073368550/embed/a10bef3a43e832d9835161d9c6a3ec3e82d97531'></iframe>
     <script>
       /*
       function onEachFeature(feature, marker) {
@@ -50,17 +49,12 @@
         console.log("response", response);
         
         
-        var geojsonLayer = L.geoJSON()
-                            //.addTo(map);
-        geojsonLayer.addData(response);
-        
-        map.fitBounds(geojsonLayer.getBounds(), {
-          padding: [20, 20]
-        });
+        //var geojsonLayer = L.geoJSON()
+        //                    //.addTo(map);
 
 
-/* 
-        var covidCaterpillars = L.geoJson(response, {
+ 
+        var geojsonLayer = L.geoJson(response, {
         
           //onEachFeature: onEachFeature,
         
@@ -78,9 +72,14 @@
             });
           }
         });
-        covidCaterpillars.addTo(map);
-*/
-/**/
+        geojsonLayer.addTo(map);
+        //geojsonLayer.addData(response);
+       
+        map.fitBounds(geojsonLayer.getBounds(), {
+          padding: [20, 20]
+        });
+
+/*
         var covidCaterpillars = L.geoJson(response, {
             filter: function(feature, layer) {
             return feature.properties.category == "covid_caterpillar";
@@ -103,7 +102,7 @@
           }
         });
         covidCaterpillars.addTo(map);
-/**/
+*/
         
       });
       
