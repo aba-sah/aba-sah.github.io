@@ -18,10 +18,15 @@
     
   </head>
   <body>
+    <div class="btn-group">
+      <button type="button" id="all_points" class="btn btn-success">All</button>
+      <button type="button" id="other" class="btn btn-primary">Others</button>
+      <button type="button" id="covid_caterpillars" class="btn btn-danger">Caterpillars</button>
+    </div>
     <div id="map"></div>
+    
     <script>
       
-      //var map = L.map('map').setView([55.9967, -3.2655], 10);
       var map = L.map('map');//.setView([55.9761, -3.29465], 15);
       
       L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
@@ -95,10 +100,20 @@
         covidCaterpillars.addTo(map);
         map.removeLayer(covidCaterpillars);
 
-        
+/*        $("#other").click(function() {
+          map.addLayer(others)
+          map.removeLayer(cafes)
+        });
+*/        $("#covid_caterpillars").click(function() {
+          map.addLayer(covidCaterpillars)
+          map.removeLayer(geojsonLayer)
+        });
+        $("#all_points").click(function() {
+          map.removeLayer(covidCaterpillars)
+          map.addLayer(geojsonLayer)
+        });        
       });
-      
-      
+           
     </script>
 </body>
 </html>
