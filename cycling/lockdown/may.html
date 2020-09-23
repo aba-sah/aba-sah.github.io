@@ -30,8 +30,9 @@
       var attribution = 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' + 
                                                     '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' + 
                                                     'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>';
-      var grayscale = L.tileLayer(mapboxUrl, {id: 'MapID', tileSize: 512, zoomOffset: -1, attribution: attribution});//,
-          //streets   = L.tileLayer(mapboxUrl, {id: 'MapID', tileSize: 512, zoomOffset: -1, attribution: attribution});
+      var mapUrl = 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}';
+      var grayscale = L.tileLayer(mapUrl, {id: 'MapID', tileSize: 512, zoomOffset: -1, attribution: attribution});//,
+          //streets   = L.tileLayer(mapUrl, {id: 'MapID', tileSize: 512, zoomOffset: -1, attribution: attribution});
 
       var map = L.map('map');//, {
                         //layers: [grayscale]
@@ -39,7 +40,7 @@
       
       
       
-      var streets = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+      var streets = L.tileLayer(mapUrl, {
                                     attribution: attribution,
                                     maxZoom: 18,
                                     id: 'mapbox/streets-v11',
