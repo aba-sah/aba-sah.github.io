@@ -52,11 +52,19 @@
                                       tileSize: 512, 
                                       zoomOffset: -1,
                                       accessToken: 'pk.eyJ1IjoiYWJhLXNhaCIsImEiOiJja2Y0YzhidjgwNTc3MzBydnBwMGQ1NTllIn0.zeOI7q1hPCmH1xtttK_n0g'
-                                    });
-     
-      
+                                    }),
+          satelliteLayer = L.tileLayer(mapUrl, {
+                                      attribution: attribution,
+                                      maxZoom: 18,
+                                      id: 'mapbox/satellite-v9', 
+                                      tileSize: 512, 
+                                      zoomOffset: -1,
+                                      accessToken: 'pk.eyJ1IjoiYWJhLXNhaCIsImEiOiJja2Y0YzhidjgwNTc3MzBydnBwMGQ1NTllIn0.zeOI7q1hPCmH1xtttK_n0g'
+                                    });      
+           
       var baseMaps = {
         "<span style='color: gray'>Grayscale</span>": grayscaleLayer,
+        "Satellite: satelliteLayer,
         "Streets": streetsLayer
       };
       L.control.layers(baseMaps).addTo(map);
