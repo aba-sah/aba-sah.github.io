@@ -27,18 +27,27 @@
     
     <script>
       
-      var map = L.map('map');//.setView([55.9761, -3.29465], 15);
+      var attribution = 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' + 
+                                                    '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' + 
+                                                    'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>';
+      var grayscale = L.tileLayer(mapboxUrl, {id: 'MapID', tileSize: 512, zoomOffset: -1, attribution: attribution});//,
+          //streets   = L.tileLayer(mapboxUrl, {id: 'MapID', tileSize: 512, zoomOffset: -1, attribution: attribution});
+
+      var map = L.map('map', {
+                        //layers: [grayscale]
+                     )};//.setView([55.9761, -3.29465], 15);
       
-      L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
-          attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' + 
-                          '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' + 
-                          'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-          maxZoom: 18,
-          id: 'mapbox/streets-v11',
-          tileSize: 512,
-          zoomOffset: -1,
-          accessToken: 'pk.eyJ1IjoiYWJhLXNhaCIsImEiOiJja2Y0YzhidjgwNTc3MzBydnBwMGQ1NTllIn0.zeOI7q1hPCmH1xtttK_n0g'
-      }).addTo(map);
+      
+      
+      var streets = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+                                    attribution: attribution,
+                                    maxZoom: 18,
+                                    id: 'mapbox/streets-v11',
+                                    tileSize: 512,
+                                    zoomOffset: -1,
+                                    accessToken: 'pk.eyJ1IjoiYWJhLXNhaCIsImEiOiJja2Y0YzhidjgwNTc3MzBydnBwMGQ1NTllIn0.zeOI7q1hPCmH1xtttK_n0g'
+                                })
+      streets.addTo(map);
 
       
       $.getJSON("may.geojson", function(response) {
