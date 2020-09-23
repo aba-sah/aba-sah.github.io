@@ -30,26 +30,30 @@
       var attribution = 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' + 
                                                     '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' + 
                                                     'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>';
-      var mapUrl = 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}';
-      
-      var grayscaleLayer = L.tileLayer(mapUrl, {id: 'mapbox/light-v10', tileSize: 512, zoomOffset: -1, attribution: attribution});//,
-          //streets   = L.tileLayer(mapUrl, {id: 'mapbox/streets-v11', tileSize: 512, zoomOffset: -1, attribution: attribution});
-
-      var map = L.map('map');//, {
-                        //layers: [grayscaleLayer]
-                     //)};//.setView([55.9761, -3.29465], 15);
+         
+      var map = L.map('map');      
       
       
-      
-      var streetsLayer = L.tileLayer(mapUrl, {
+     var mapUrl = 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}';
+     var streetsLayer = L.tileLayer(mapUrl, {
                                     attribution: attribution,
                                     maxZoom: 18,
-                                    id: 'mapbox/light-v10', //'mapbox/streets-v11',
+                                    id: 'mapbox/streets-v11',
                                     tileSize: 512,
                                     zoomOffset: -1,
                                     accessToken: 'pk.eyJ1IjoiYWJhLXNhaCIsImEiOiJja2Y0YzhidjgwNTc3MzBydnBwMGQ1NTllIn0.zeOI7q1hPCmH1xtttK_n0g'
                                 })
       streetsLayer.addTo(map);
+      
+      var grayscaleLayer = L.tileLayer(mapUrl, {
+                                      attribution: attribution,
+                                      maxZoom: 18,
+                                      id: 'mapbox/light-v10', 
+                                      tileSize: 512, 
+                                      zoomOffset: -1,
+                                      accessToken: 'pk.eyJ1IjoiYWJhLXNhaCIsImEiOiJja2Y0YzhidjgwNTc3MzBydnBwMGQ1NTllIn0.zeOI7q1hPCmH1xtttK_n0g'
+                                    });
+     
       
       var baseMaps = {
         "<span style='color: gray'>Grayscale</span>": grayscaleLayer,
