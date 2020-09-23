@@ -67,8 +67,6 @@
         "Satellite: satelliteLayer,
         "Streets": streetsLayer
       };
-      L.control.layers(baseMaps).addTo(map);
-
 
       
       $.getJSON("may.geojson", function(response) {
@@ -127,8 +125,11 @@
           }
 */
         });
-        covidCaterpillars.addTo(map);
-        map.removeLayer(covidCaterpillars);
+        //covidCaterpillars.addTo(map);
+        //map.removeLayer(covidCaterpillars);
+
+        var markers = L.layerGroup([covidCaterpillars, geojsonLayer]);
+        L.control.layers(baseMaps, markers).addTo(map);
 
 /*        $("#other").click(function() {
           map.addLayer(others)
