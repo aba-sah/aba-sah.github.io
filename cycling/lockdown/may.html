@@ -128,8 +128,8 @@
         //covidCaterpillars.addTo(map);
         //map.removeLayer(covidCaterpillars);
 
-        var markers = L.layerGroup([covidCaterpillars, geojsonLayer]);
-        L.control.layers(baseMaps, markers).addTo(map);
+        //var markers = L.layerGroup([covidCaterpillars, geojsonLayer]);
+        L.control.layers(baseMaps).addTo(map);
 
 /*        $("#other").click(function() {
           map.addLayer(others)
