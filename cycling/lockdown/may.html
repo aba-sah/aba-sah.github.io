@@ -37,6 +37,7 @@
      var mapUrl = 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}';
      var streetsLayer = L.tileLayer(mapUrl, {
                                     attribution: attribution,
+                                    minzoom = 5,
                                     maxZoom: 18,
                                     id: 'mapbox/streets-v11',
                                     tileSize: 512,
