@@ -3,18 +3,29 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
        crossorigin=""/>
-    
+
+   <link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
+
     <style>
       #map {
         width: 900px;
         height: 600px;
+      }
+      .marker {
+        display: block;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        padding: 0;
       }
     </style>
 
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
        crossorigin=""></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    
     
   </head>
   <body>
@@ -33,11 +44,21 @@
          
       var map = L.map('map');      
       
+      var imageIcon = L.Icon.extend({options: {
+                                      //shadowUrl: 'leaf-shadow.png',
+                                      iconSize:     [50, 50],
+                                      //shadowSize:   [50, 64],
+                                      iconAnchor:   [22, 94],
+                                      //shadowAnchor: [4, 62],
+                                      popupAnchor:  [-3, -76]
+                                    }
+                                  });
       
-     var mapUrl = 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}';
-     var streetsLayer = L.tileLayer(mapUrl, {
+      
+      var mapUrl = 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}';
+      var streetsLayer = L.tileLayer(mapUrl, {
                                     attribution: attribution,
-                                    minzoom: 5,
+                                    minZoom: 1,
                                     maxZoom: 18,
                                     id: 'mapbox/streets-v11',
                                     tileSize: 512,
@@ -45,9 +66,10 @@
                                     accessToken: 'pk.eyJ1IjoiYWJhLXNhaCIsImEiOiJja2Y0YzhidjgwNTc3MzBydnBwMGQ1NTllIn0.zeOI7q1hPCmH1xtttK_n0g'
                                 })
       streetsLayer.addTo(map);
-      
+
       var grayscaleLayer = L.tileLayer(mapUrl, {
                                       attribution: attribution,
+                                      minZoom: 1,
                                       maxZoom: 18,
                                       id: 'mapbox/light-v10', 
                                       tileSize: 512, 
@@ -56,13 +78,14 @@
                                     }),
           satelliteLayer = L.tileLayer(mapUrl, {
                                       attribution: attribution,
+                                      minZoom: 1,
                                       maxZoom: 18,
                                       id: 'mapbox/satellite-v9', 
                                       tileSize: 512, 
                                       zoomOffset: -1,
                                       accessToken: 'pk.eyJ1IjoiYWJhLXNhaCIsImEiOiJja2Y0YzhidjgwNTc3MzBydnBwMGQ1NTllIn0.zeOI7q1hPCmH1xtttK_n0g'
                                     });      
-           
+
       var baseMaps = {
         "<span style='color: gray'>Grayscale</span>": grayscaleLayer,
         "Satellite": satelliteLayer,
