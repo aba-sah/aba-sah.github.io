@@ -1,5 +1,6 @@
-# Building a Proof of Concept - EBRI Digital Business Network
+# Building a Proof of Concept &ndash; EBRI Digital Business Network
 
-blah
+
+Second time using this project as  a demonstrator and I'm finally getting around to documenting the story behind it.
 
 ## Test
