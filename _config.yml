@@ -1,6 +1,6 @@
 theme: jekyll-theme-tactile
-title: " "
-description: " "
+title: 
+description: 
 logo: ""
 relative_links:
   enabled: true
