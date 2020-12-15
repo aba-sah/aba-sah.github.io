@@ -1,0 +1,6 @@
+theme: jekyll-theme-tactile
+title: ""
+logo: ""
+relative_links:
+  enabled: true
+  collections: true
