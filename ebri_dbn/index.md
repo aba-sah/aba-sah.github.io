@@ -1,5 +1,5 @@
 ---
-title: 
+title: Nada
 ---
 
 # Building a Proof of Concept &ndash; EBRI Digital Business Network
