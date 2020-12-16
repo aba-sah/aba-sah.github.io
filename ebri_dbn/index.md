@@ -66,8 +66,6 @@ For even a relatively small geographical region a much larger number of organisa
 This view focuses on a single relationship, displaying one link type &ndash; organisation type &ndash; for each company shown in the network.
 
 
-{::nomarkdown} 
-
 <table>
  <tbody>
  <tr>
@@ -81,12 +79,10 @@ This view focuses on a single relationship, displaying one link type &ndash; org
  </tbody>
 </table>
 
-{:/}
-
 A key requirement was support for exploring similarity between organisations; an alternative to a network diagram is to use a matrix, especially useful for examining pairwise and relative similarity.   
 
-```r
-test <- "ode"
+```JavaScript
+test = "ode"
 ```
 
 ### Sample Use Cases
