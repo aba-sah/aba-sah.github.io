@@ -4,7 +4,7 @@ description: Building proof of concept &ndash; EBRI's Digital Business Network
 ---
 
 
-Second time using this project as  a [demonstrator](../ebri_dashboard.html) in the last few months, so I'm finally getting around to documenting the story behind it. I spent a month as a visiting researcher with the [___Operations and Information Management___](https://www2.aston.ac.uk/aston-business-school/research/departments/oim) group at Aston Business School in 2018. During that period I worked with my host, [Victoria Uten](https://research.aston.ac.uk/en/persons/victoria-uren) on a project with [EBRI](https://bioenergy-for-business.org) (what used to be the European Bioenergy Research Institute) &ndash; to model a digital business network from which EBRI could provide information and services to local companies within the ___Energy from Waste (EfW)___ sector. 
+Second time using this project as  a [demonstrator](../ebri_dashboard.html) in the last few months, so I'm finally getting around to documenting the story behind it. I spent a month as a visiting researcher with the [___Operations and Information Management___](https://www2.aston.ac.uk/aston-business-school/research/departments/oim) group at Aston Business School in 2018. During that period I worked with my host, [Victoria Uten](https://research.aston.ac.uk/en/persons/victoria-uren) on a project with [EBRI](https://bioenergy-for-business.org) (what used to be the European Bioenergy Research Institute) &ndash; to model a digital business network (DBN) from which EBRI could provide information and services to local companies within the ___Energy from Waste (EfW)___ sector. 
 
 ## The Problem
  
@@ -17,9 +17,25 @@ Within this model standard and alternative KPIs would be used to track value cre
 
 ### Benefits for EBRI
 
-The hub of the local EfW community, EBRI pushes information on services and the local economy to its network. Better understanding of individual and shared value within its network would allow it to more effecively customise service delivery to target organisations. 
+The hub of the local EfW community, EBRI pushes information on services and the local economy to its network. A model that describes the sector and provides a common language that ensures better understanding of individual and shared value within the network. This would allow EBRI to more effecively customise service delivery to target organisations. 
 
 
 ### Benefits for Organisations within the Sector
 
-Startup costs within the EfW sector are relatively high, making it more difficult for smaller organisations, and especially plants, to operate competitively. Identification of partners with shared strategy and values helps smaller companies to build economies of scale, to lower costs and increase competitiveness.
+All organisations within the DBN benefit from access to a central point from which to locate information and services. SMEs especially stand to gain; startup costs within the EfW sector are relatively high, making it more difficult for especially plants to set up, and for SMES in general to operate competitively. Identification of partners with shared strategy and values helps smaller companies to build economies of scale, lower costs and increase competitiveness. 
+
+
+## Sample Use Cases
+
+### Location, Transport & Logistics
+
+### Acquiring & Consuming Feedstock
+
+### Alternative KPIs for Value
+
+
+## Vision Demonstrator
+
+A ___vision demonstrator___ provides a medium-fidelity, visualisation-based prototype to demonstrate ___proof of concept___. Hosting this online allowed me to continue to collaborate with EBRI and Aston Business School beyond the month I worked on site. Because we were still iterating between requirements analysis and design interactivity was key to exploring different relationships within the network, and how these changed based on which KPI(s) we were defining and/or assessing. 
+
+Multiple options exist for creating an interactive website. JavaScript is convenient for quick prototyping client-side; to read in the [data](../twothreethree/dashboard/data/ebri) we were working with I made use of PHP.  I chose D3 because it allowed me to reuse both knowledge of the library and build on previous learning. 
