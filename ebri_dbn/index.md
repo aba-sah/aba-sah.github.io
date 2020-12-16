@@ -39,7 +39,7 @@ Multiple options exist for creating an interactive website; the decision on what
    
    This view focuses on a single relationship, displaying one link type &ndash; organisation type &ndash; for each company shown in the network.
   </td><td width = "35%">
-    <img src="images/network_focus_service_provider.png" height = "350px" style = "margin-left: auto; margin-right: auto;">
+    <img src="images/network_focus_service_provider.png" height = "350px">
   </td>
  </tr> 
 </table>
