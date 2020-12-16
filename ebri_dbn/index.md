@@ -18,7 +18,7 @@ Within this model standard and alternative KPIs would be used to track value cre
 
 ### Benefits for EBRI
 
-The hub of the local EfW community, EBRI pushes information on services and the local economy to its network. A model that describes the sector and provides a common language that ensures better understanding of individual and shared value within the network. This would allow EBRI to more effecively customise service delivery to target organisations. 
+The hub of the local EfW community, EBRI pushes information on services and the local economy to its network. A model that describes the sector and provides a common language that ensures better understanding of individual and shared value within the network. This would allow EBRI to more effectively customise service delivery to target organisations. 
 
 
 ### Benefits for Organisations within the Sector
@@ -30,7 +30,7 @@ All organisations within the DBN benefit from access to a central point from whi
 
 A ___vision demonstrator___ is a medium-fidelity, visualisation-based prototype used to demonstrate ___proof of concept___. Hosting the [vision demonstrator](../ebri_dashboard.html) this project online allowed me to continue to collaborate with EBRI and Aston Business School beyond the month I worked on site. Because we were still iterating between requirements analysis and design interactivity was key to exploring different relationships within the network, and how these changed based on which KPI(s) we were defining and/or assessing. 
 
-Multiple options exist for creating an interactive website; the decision on what fits a specific case is based on curent skills, time, access to a specific technology (yourself and your client), data and task complexity, among others. JavaScript is convenient for quick prototyping client-side; to read in the data ([sample dummy data](../twothreethree/dashboard/data/ebri/dummy_network.json)) we were working with I made use of PHP. I chose [D3](http://d3js.org) because it allowed me to reuse previous work and continue to learn to use the library for visual data exploration.
+Multiple options exist for creating an interactive website; the decision on what fits a specific case is based on current skills, time, access to a specific technology (yourself and your client), data and task complexity, among others. JavaScript is convenient for quick prototyping client-side; to read in the data ([sample dummy data](../twothreethree/dashboard/data/ebri/dummy_network.json)) we were working with I made use of PHP. I chose [D3](http://d3js.org) because it allowed me to reuse previous work and continue to learn to use the library for visual data exploration.
 
 {::nomarkdown} 
 
@@ -44,7 +44,7 @@ Multiple options exist for creating an interactive website; the decision on what
   </td>
  </tr><tr>
   <td width = "65%" >
-   For even a relatively small geographical region a much larger number of organisations will interact with the EfW sector. To simplify exploration at this stafe, and to maintain privacy of the actual organisations interviewed we created a <a href = "../twothreethree/dashboard/data/ebri/dummy_network.json">dummy network</a> to visualise a representative sample of the actual dataset and the network as a whole, based on the structure of the data collected. The snapshot contains only 26 organisations, along with the hub. 
+   For even a relatively small geographical region a much larger number of organisations will interact with the EfW sector. To simplify exploration at this stage, and to maintain privacy of the actual organisations interviewed we created a <a href = "../twothreethree/dashboard/data/ebri/dummy_network.json">dummy network</a> to visualise a representative sample of the actual dataset and the network as a whole, based on the structure of the data collected. The snapshot contains only 26 organisations, along with the hub. 
   </td>
  </tr><tr>
   <td width = "65%" >
@@ -82,14 +82,31 @@ A key requirement was support for exploring similarity between organisations, wh
 
 #### Location, Transport & Logistics
 
-A key product in the EfW sector is ___feedstock___ for plants. Each plant will consume a subset of feedstock types at regular cycles, e.g., x amount of cork daily, y amount of wood chips weekly. Sourcing feedstock is influenced by location of suitable and preferred feedstock, cost and amount available per supplier, in addition to transport costs. Sourcing local is critical for this sector, in part to satisfy regulations, and also to combat NIMBY and win heats and minds, by demonstrating value for the local economy over negative reputation for environmental emissions and sustainability, among others. However, this comes with  Satisfying these conditions may however mean targetting multiple SMEs rather than a single, large supplier. 
-There are two ways to make a decision about sourcing suppliers:
-  * based on delivery cycles
+A key product in the EfW sector is [___feedstock___](images/Ontology_FeedStock.pdf) that plants convert to energy. Each plant will consume a subset of feedstock types at regular cycles, e.g., x amount of cork daily, y amount of wood chips weekly. Sourcing feedstock is influenced by location of suitable and preferred feedstock, cost and amount available per supplier, in addition to transport costs. Sourcing local is critical for this sector, in part to satisfy regulations, and also to combat NIMBY and win hearts and minds, by demonstrating value for the local economy over negative reputation for environmental emissions and sustainability, among others. However, this comes with  Satisfying these conditions may however mean targeting multiple SMEs rather than a single, large supplier. 
+There are two ways to make a decision about sourcing suppliers; by reordering the matrix to show, 
 
-![best](images/UI_focus_best_fit_plant_operator-suppliers_matrix.pdf)
-![cycles](images/UI_delivery_cycles_kpi_matrix.pdf)
+  * from the consumer's viewpoint (an EfW plant), based on preferred feedstock and other operational factors
 
-#### Acquiring & Consuming Feedstock
+![ideal supplier mix for this plant](images/UI_focus_best_fit_plant_operator-suppliers_matrix.pdf)
+
+  * from the supplier's viewpoint, based on delivery cycles for the whole network
+<table>
+ <tbody><tr>
+  <td>
+    <img src="images/UI_delivery_cycles_kpi_matrix.pdf" height = "350px" alt = "delivery cycles across DBN">
+  </td>
+  </tr></tbody>
+</table>
+
 
 #### Alternative KPIs for Value
 
+[___Value___](images/Ontology_Value.pdf) may be defined in different ways for an organisation. A simple example is the net GHG emissions for organisations within the network. Another KPI is distance from other organisations, which feeds into costing and sourcing of services.
+
+<table>
+ <tbody><tr>
+  <td>
+    <img src="images/ordering_by_ghg_emissions.png" height = "350px" alt = "relative net GHG emissions within DBN, top left is lowest, increasing to the bottom, right">
+  </td>
+  </tr></tbody>
+</table>
