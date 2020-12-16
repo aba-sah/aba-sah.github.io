@@ -50,11 +50,12 @@ Multiple options exist for creating an interactive website; the decision on what
 {:/}
 
 
-
-|  At its simplest, a network diagram is an obvious visualisation approach for a digital business network. However, networks can get busy very quickly; beyond a fairly small number of nodes and links folding and/or filtering is necessary to be able to obtain a good understanding of the relationships within the network overall and selected data subsets.
-   For even a relatively small geographical region a much larger number of organisations will interact with the EfW sector. To simplify exploration at this stafe, and to maintain privacy of the actual organisations interviewed we created a <a href = "../twothreethree/dashboard/data/ebri/dummy_network.json">dummy network</a> to visualise a representative sample of the actual dataset and the network as a whole, based on the structure of the data collected. The snapshot contains only 26 organisations, along with the hub. 
-   
-   This view focuses on a single relationship, displaying one link type &ndash; organisation type &ndash; for each company shown in the network. | {::nomarkdown}<img src="images/network_focus_service_provider.png" height = "350px">{:/}  |  
+| Symbol | Unicode | 
+| :----: | ------- | 
+|   ™    | ::nomarkdown}&#8482;{:/} |
+|   ©    | {::nomarkdown}&#169;{:/}  |
+|   ♻    | 267B |
+|  At its simplest, a network diagram is an obvious visualisation approach for a digital business network. However, networks can get busy very quickly; beyond a fairly small number of nodes and links folding and/or filtering is necessary to be able to obtain a good understanding of the relationships within the network overall and selected data subsets. <br> For even a relatively small geographical region a much larger number of organisations will interact with the EfW sector. To simplify exploration at this stafe, and to maintain privacy of the actual organisations interviewed we created a <a href = "../twothreethree/dashboard/data/ebri/dummy_network.json">dummy network</a> to visualise a representative sample of the actual dataset and the network as a whole, based on the structure of the data collected. The snapshot contains only 26 organisations, along with the hub. <br> This view focuses on a single relationship, displaying one link type &ndash; organisation type &ndash; for each company shown in the network. | {::nomarkdown}<img src="images/network_focus_service_provider.png" height = "350px">{:/}  |  
 
 
 
