@@ -71,7 +71,7 @@ This view focuses on a single relationship, displaying one link type &ndash; org
  <tr>
   <td width = "65%" >
     At its simplest, a network diagram is an obvious visualisation approach for a digital business network. However, networks can get busy very quickly; beyond a fairly small number of nodes and links folding and/or filtering is necessary to be able to obtain a good understanding of the relationships within the network overall and selected data subsets.
-  </td><td width = "35%" rowspan = "3">
+  </td><td width = "35%">
     <img src="images/network_focus_service_provider.png" height = "350px">
   </td>
  </tr>
@@ -79,7 +79,7 @@ This view focuses on a single relationship, displaying one link type &ndash; org
  </tbody>
 </table>
 
-A key requirement was support for exploring similarity between organisations; an alternative to a network diagram is to use a matrix, especially useful for examining pairwise and relative similarity.   
+A key requirement was support for exploring similarity between organisations, where similarity was tied to one or more KPIs. An alternative to a network diagram in such cases is to use a matrix, especially useful for examining pairwise and relative similarity.   
 
 ```JavaScript
 test = "ode"
