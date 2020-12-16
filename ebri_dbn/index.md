@@ -80,7 +80,7 @@ This view focuses on a single relationship, displaying one link type &ndash; org
 A key requirement was support for exploring similarity between organisations, where similarity was tied to one or more KPIs. An alternative to a network diagram in such cases is to use a matrix, especially useful for examining pairwise and relative similarity. The following use cases demonstrate how this was done.
 
 
-#### Location, Transport & Logistics
+#### Acquiring & Consuming Feedstock
 
 A key product in the EfW sector is [___feedstock___](images/Ontology_FeedStock.pdf) that plants convert to energy. Each plant will consume a subset of feedstock types at regular cycles, e.g., x amount of cork daily, y amount of wood chips weekly. Sourcing feedstock is influenced by location of suitable and preferred feedstock, cost and amount available per supplier, in addition to transport costs. Sourcing local is critical for this sector, in part to satisfy regulations, and also to combat NIMBY and win hearts and minds, by demonstrating value for the local economy over negative reputation for environmental emissions and sustainability, among others. However, this comes with  Satisfying these conditions may however mean targeting multiple SMEs rather than a single, large supplier. 
 There are two ways to make a decision about sourcing suppliers; by reordering the matrix to show, 
