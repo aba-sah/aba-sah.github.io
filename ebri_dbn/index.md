@@ -50,14 +50,14 @@ Multiple options exist for creating an interactive website; the decision on what
 {:/}
 
 
-{::nomarkdown} 
 
 | Name | Value                                   |
 |------|-----------------------------------------|
 | one  | {::nomarkdown}<i>foo</i>{:/}            |
 | two  | {::nomarkdown}<ul><li>bar</li></ul>{:/} |
+| blac | {::nomarkdown}<img src="images/network_focus_service_provider.png" height = "350px">{:/}  |  
 
-{:/}
+
 
 A key requirement was support for exploring similarity between organisations; an alternative to a network diagram is to use a matrix, especially useful for examining pairwise and relative similarity.   
 
