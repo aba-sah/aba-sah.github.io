@@ -70,7 +70,8 @@ This view focuses on a single relationship, displaying one link type &ndash; org
  <tbody><tr>
   <td>
     <img src="images/network_focus_service_provider.png" height = "350px">
-  </td></tbody>
+  </td>
+  </tr></tbody>
 </table>
 
 ```JavaScript
