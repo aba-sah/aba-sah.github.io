@@ -25,17 +25,31 @@ The hub of the local EfW community, EBRI pushes information on services and the 
 All organisations within the DBN benefit from access to a central point from which to locate information and services. SMEs especially stand to gain; startup costs within the EfW sector are relatively high, making it more difficult for especially plants to set up, and for SMES in general to operate competitively. Identification of partners with shared strategy and values helps smaller companies to build economies of scale, lower costs and increase competitiveness. 
 
 
-## Sample Use Cases
-
-### Location, Transport & Logistics
-
-### Acquiring & Consuming Feedstock
-
-### Alternative KPIs for Value
-
-
 ## Vision Demonstrator
 
-A ___vision demonstrator___ provides a medium-fidelity, visualisation-based prototype to demonstrate ___proof of concept___. Hosting this online allowed me to continue to collaborate with EBRI and Aston Business School beyond the month I worked on site. Because we were still iterating between requirements analysis and design interactivity was key to exploring different relationships within the network, and how these changed based on which KPI(s) we were defining and/or assessing. 
+A ___vision demonstrator___ is a medium-fidelity, visualisation-based prototype used to demonstrate ___proof of concept___. Hosting the [vision demonstrator](../ebri_dashboard.html) this project online allowed me to continue to collaborate with EBRI and Aston Business School beyond the month I worked on site. Because we were still iterating between requirements analysis and design interactivity was key to exploring different relationships within the network, and how these changed based on which KPI(s) we were defining and/or assessing. 
 
-Multiple options exist for creating an interactive website; the decision on what fits a specific case is based on curent skills, time, access to a specific technology (yourself and your client), data and task complexity, among others. JavaScript is convenient for quick prototyping client-side; to read in the data ([sample dummy data](../twothreethree/dashboard/data/ebri/dummy_network.json)) we were working with I made use of PHP. I chose D3 because it allowed me to reuse and continue to learn to use it for visual data exploration.
+Multiple options exist for creating an interactive website; the decision on what fits a specific case is based on curent skills, time, access to a specific technology (yourself and your client), data and task complexity, among others. JavaScript is convenient for quick prototyping client-side; to read in the data ([sample dummy data](../twothreethree/dashboard/data/ebri/dummy_network.json)) we were working with I made use of PHP. I chose [D3](http://d3js.org) because it allowed me to reuse previous work and continue to learn to use the library for visual data exploration.
+
+<table>
+ <tr>
+  <td width = "65%">
+    At its simplest, a network diagram is an obvious visualisation approach for a digital business network. However, networks can get busy very quickly; beyond a fairly small number of nodes and links folding and/or filtering is necessary to be able to obtain a good understanding of the relationships within the network overall and selected data subsets.
+   For even a relatively small geographical region a much larger number of organisations will interact with the EfW sector. To simplify exploration at this stafe, and to maintain privacy of the actual organisations interviewed we created a [dummy network](../twothreethree/dashboard/data/ebri/dummy_network.json) to visualise a representative sample of the actual dataset and the network as a whole, based on the structure of the data collected. The snapshot contains only 26 organisations, along with the hub, and only one link type (organisation type) for each node in the network drawn. 
+  </td><td width = "35%">
+    <img src="images/network_focus_service_provider.png" height = "350px" style = "margin-left: auto; margin-right: auto;">
+  </td>
+ </tr> 
+</table>
+A key requirement of this network was support for exploring similarity between organisations; one solution for this is to use a matrix to examine pairwise and relative similarity.   
+
+
+
+### Sample Use Cases
+
+#### Location, Transport & Logistics
+
+#### Acquiring & Consuming Feedstock
+
+#### Alternative KPIs for Value
+
