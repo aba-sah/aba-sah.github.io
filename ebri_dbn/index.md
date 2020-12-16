@@ -93,7 +93,7 @@ There are two ways to make a decision about sourcing suppliers; by reordering th
 <table>
  <tbody><tr>
   <td>
-    <img src="images/UI_delivery_cycles_kpi_matrix.pdf" height = "350px" alt = "delivery cycles across DBN">
+    <img src="images/UI_delivery_cycles_kpi_matrix.pdf" height = "280px" alt = "delivery cycles across DBN">
   </td>
   </tr></tbody>
 </table>
@@ -106,7 +106,7 @@ There are two ways to make a decision about sourcing suppliers; by reordering th
 <table>
  <tbody><tr>
   <td>
-    <img src="images/ordering_by_ghg_emissions.png" height = "350px" alt = "relative net GHG emissions within DBN, top left is lowest, increasing to the bottom, right">
+    <img src="images/ordering_by_ghg_emissions.png" height = "280px" alt = "relative net GHG emissions within DBN, top left is lowest, increasing to the bottom, right">
   </td>
   </tr></tbody>
 </table>
