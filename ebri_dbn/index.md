@@ -31,6 +31,7 @@ A ___vision demonstrator___ is a medium-fidelity, visualisation-based prototype 
 
 Multiple options exist for creating an interactive website; the decision on what fits a specific case is based on curent skills, time, access to a specific technology (yourself and your client), data and task complexity, among others. JavaScript is convenient for quick prototyping client-side; to read in the data ([sample dummy data](../twothreethree/dashboard/data/ebri/dummy_network.json)) we were working with I made use of PHP. I chose [D3](http://d3js.org) because it allowed me to reuse previous work and continue to learn to use the library for visual data exploration.
 
+{::nomarkdown} 
 <table>
  <tbody>
  <tr>
@@ -45,6 +46,8 @@ Multiple options exist for creating an interactive website; the decision on what
  </tr> 
  </tbody>
 </table>
+
+{:/}
 
 A key requirement was support for exploring similarity between organisations; an alternative to a network diagram is to use a matrix, especially useful for examining pairwise and relative similarity.   
 
