@@ -9,9 +9,10 @@ Second time using this project as  a [demonstrator](../ebri_dashboard.html) in t
 ## The Problem
  
 __EfW__ involves fairly complex value chains, with a variety of organisations feeding into or deriving value from the sector. Our task was to model this environment, to help businesses identify:
-  * partners with shared business strategy or objectives 
-  * companies to whom they could provide services 
-  * companies providing services they require.
+
+      * partners with shared business strategy or objectives 
+      * companies to whom they could provide services 
+      * companies providing services they require.
   
 Within this model standard and alternative KPIs would be used to track value created by or delivered to an organisation. KPIs would therefore also serve as a means to identify shared values between organisations.
 
@@ -32,7 +33,8 @@ A ___vision demonstrator___ is a medium-fidelity, visualisation-based prototype 
 Multiple options exist for creating an interactive website; the decision on what fits a specific case is based on curent skills, time, access to a specific technology (yourself and your client), data and task complexity, among others. JavaScript is convenient for quick prototyping client-side; to read in the data ([sample dummy data](../twothreethree/dashboard/data/ebri/dummy_network.json)) we were working with I made use of PHP. I chose [D3](http://d3js.org) because it allowed me to reuse previous work and continue to learn to use the library for visual data exploration.
 
 {::nomarkdown} 
-<table>
+
+<!-- table>
  <tbody>
  <tr>
   <td width = "65%" >
@@ -53,23 +55,39 @@ Multiple options exist for creating an interactive website; the decision on what
   </td><td width = "35%" ></td>
  </tr>
  </tbody>
+</table -->
+
+{:/}
+
+At its simplest, a network diagram is an obvious visualisation approach for a digital business network. However, networks can get busy very quickly; beyond a fairly small number of nodes and links folding and/or filtering is necessary to be able to obtain a good understanding of the relationships within the network overall and selected data subsets.
+
+For even a relatively small geographical region a much larger number of organisations will interact with the EfW sector. To simplify exploration at this stafe, and to maintain privacy of the actual organisations interviewed we created a <a href = "../twothreethree/dashboard/data/ebri/dummy_network.json">dummy network</a> to visualise a representative sample of the actual dataset and the network as a whole, based on the structure of the data collected. The snapshot contains only 26 organisations, along with the hub. 
+
+This view focuses on a single relationship, displaying one link type &ndash; organisation type &ndash; for each company shown in the network.
+
+
+{::nomarkdown} 
+
+<table>
+ <tbody>
+ <tr>
+  <td width = "65%" >
+    At its simplest, a network diagram is an obvious visualisation approach for a digital business network. However, networks can get busy very quickly; beyond a fairly small number of nodes and links folding and/or filtering is necessary to be able to obtain a good understanding of the relationships within the network overall and selected data subsets.
+  </td><td width = "35%" rowspan = "3">
+    <img src="images/network_focus_service_provider.png" height = "350px">
+  </td>
+ </tr>
+ </tr>
+ </tbody>
 </table>
 
 {:/}
 
-
-| Symbol | Unicode | 
-| :----: | ------- | 
-|   ™    | ::nomarkdown}&#8482;{:/} |
-|   ©    | {::nomarkdown}&#169;{:/}  |
-|   ♻    | 267B |
-|  At its simplest, a network diagram is an obvious visualisation approach for a digital business network. However, networks can get busy very quickly; beyond a fairly small number of nodes and links folding and/or filtering is necessary to be able to obtain a good understanding of the relationships within the network overall and selected data subsets. <br> For even a relatively small geographical region a much larger number of organisations will interact with the EfW sector. To simplify exploration at this stafe, and to maintain privacy of the actual organisations interviewed we created a <a href = "../twothreethree/dashboard/data/ebri/dummy_network.json">dummy network</a> to visualise a representative sample of the actual dataset and the network as a whole, based on the structure of the data collected. The snapshot contains only 26 organisations, along with the hub. <br> This view focuses on a single relationship, displaying one link type &ndash; organisation type &ndash; for each company shown in the network. | {::nomarkdown}<img src="images/network_focus_service_provider.png" height = "350px">{:/}  |  
-
-
-
 A key requirement was support for exploring similarity between organisations; an alternative to a network diagram is to use a matrix, especially useful for examining pairwise and relative similarity.   
 
-
+```r
+test <- "ode"
+```
 
 ### Sample Use Cases
 
