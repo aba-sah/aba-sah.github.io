@@ -83,9 +83,11 @@ A key requirement was support for exploring similarity between organisations, wh
 #### Location, Transport & Logistics
 
 A key product in the EfW sector is ___feedstock___ for plants. Each plant will consume a subset of feedstock types at regular cycles, e.g., x amount of cork daily, y amount of wood chips weekly. Sourcing feedstock is influenced by location of suitable and preferred feedstock, cost and amount available per supplier, in addition to transport costs. Sourcing local is critical for this sector, in part to satisfy regulations, and also to combat NIMBY and win heats and minds, by demonstrating value for the local economy over negative reputation for environmental emissions and sustainability, among others. However, this comes with  Satisfying these conditions may however mean targetting multiple SMEs rather than a single, large supplier. 
+There are two ways to make a decision about sourcing suppliers:
+  * based on delivery cycles
 
-<iframe src="https://widgets.figshare.com/articles/6843602/embed?show_title=1" width="568" height="351" allowfullscreen frameborder="0"></iframe>
-
+![best](images/UI_focus_best_fit_plant_operator-suppliers_matrix.pdf)
+![cycles](images/UI_delivery_cycles_kpi_matrix.pdf)
 
 #### Acquiring & Consuming Feedstock
 
