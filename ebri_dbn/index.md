@@ -63,7 +63,7 @@ At its simplest, a network diagram is an obvious visualisation approach for a di
 
 For even a relatively small geographical region a much larger number of organisations will interact with the EfW sector. To simplify exploration at this stafe, and to maintain privacy of the actual organisations interviewed we created a <a href = "../twothreethree/dashboard/data/ebri/dummy_network.json">dummy network</a> to visualise a representative sample of the actual dataset and the network as a whole, based on the structure of the data collected. The snapshot contains only 26 organisations, along with the hub. 
 
-This view focuses on a single relationship, displaying one link type &ndash; organisation type &ndash; for each company shown in the network.
+This view focuses on a single relationship, displaying one link type &ndash; organisation type &ndash; for each company shown in the network. And all organisations are connected through an intermediary "dummy" node to the hub, EBRI. This allows organisations to use immediate contacts as a bridge to link to other organisations, in addition to through the hub.
 
 
 <table>
@@ -74,15 +74,18 @@ This view focuses on a single relationship, displaying one link type &ndash; org
   </tr></tbody>
 </table>
 
-```JavaScript
-test = "ode"
-```
 
 ### Sample Use Cases
 
 A key requirement was support for exploring similarity between organisations, where similarity was tied to one or more KPIs. An alternative to a network diagram in such cases is to use a matrix, especially useful for examining pairwise and relative similarity. The following use cases demonstrate how this was done.
 
+
 #### Location, Transport & Logistics
+
+A key product in the EfW sector is ___feedstock___ for plants. Each plant will consume a subset of feedstock types at regular cycles, e.g., x amount of cork daily, y amount of wood chips weekly. Sourcing feedstock is influenced by location of suitable and preferred feedstock, cost and amount available per supplier, in addition to transport costs. Sourcing local is critical for this sector, in part to satisfy regulations, and also to combat NIMBY and win heats and minds, by demonstrating value for the local economy over negative reputation for environmental emissions and sustainability, among others. However, this comes with  Satisfying these conditions may however mean targetting multiple SMEs rather than a single, large supplier. 
+
+<iframe src="https://widgets.figshare.com/articles/6843602/embed?show_title=1" width="568" height="351" allowfullscreen frameborder="0"></iframe>
+
 
 #### Acquiring & Consuming Feedstock
 
