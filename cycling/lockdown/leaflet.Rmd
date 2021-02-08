@@ -4,6 +4,7 @@ title: "An Interactive Map"
 
 output:
   html_document:
+    keep_md: true
     toc: true
     toc_depth: 2
     dev: 'svg'
