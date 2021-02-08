@@ -1,0 +1,33 @@
+
+---
+title: "An Interactive Map"
+
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+    dev: 'svg'
+
+---
+
+This is a _test_.
+
+
+```{r out.width = '100%', echo = FALSE}
+    knitr::opts_chunk$set(fig.width = 8, collapse = TRUE)
+
+
+library(leaflet)
+
+df <- read.csv(textConnection(
+    "name, lat, long
+        Cramond Foreshore Covid Caterpillar, 55.979983, -3.298972
+        \"Seagull on the wing, Cramond\", 55.979730, -3.300990"
+))
+
+leaflet(df) %>%
+    addTiles() %>%
+    addMarkers(~long, ~lat, popup = ~htmlEscape(name), label = ~htmlEscape(name))
+
+```
+
