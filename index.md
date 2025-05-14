@@ -13,7 +13,7 @@ as demonstrators to illustrate the outcomes of work to:
 
 to uncover and tell stories contained within data, to:  
   * guide context-sensitive analysis and "follow your nose" to uncover relationships within highly inter-linked data
-  * track and explore evolving trends, as for [_pupil_](sta/sta_it_402_dress_code) and [_teacher_](sta/sta_it_402_dress_code_teacher_demographics) demographics in Scotland, working with [__dressCode__](https://www.dresscode.org.uk/scotlands-computing-science-landscape) and the [__Scottish Tech Army__](https://www.scottishtecharmy.org)
+  * track and explore evolving trends, as for [_pupil_](sta/sta_it_402_dress_code.html) and [_teacher_](sta/sta_it_402_dress_code_teacher_demographics.html) demographics in Scotland, working with [__dressCode__](https://www.dresscode.org.uk/scotlands-computing-science-landscape) and the [__Scottish Tech Army__](https://www.scottishtecharmy.org)
   * provide insight into complex, multi-source, high-dimensional and/or inter-related data, as seen in a summary of changes to active travel data across Scotland [_prior to and during the 2020 and 2021 lockdowns_](sta/cycle_counters_info_cards.pdf). (See also [___the interactive version___](sta/sta-climate-change_cycling.html))
   * serve as an agile, adaptable, working tool to explore alternative scenarios, as when [___modelling operations within a digital business network___](ebri_dbn/index.html)
 
