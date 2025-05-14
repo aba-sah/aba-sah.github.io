@@ -32,7 +32,7 @@ In my experiencing refusing to acknowledge how much effort is involved in data p
 
 On the other hand, modeling data and building or cleaning with an eye to reuse means that over time you recoup that time reusing data pipelines, code and even data subsets in other data projects. So the first time I encountered the (new-ish) term __Master Data Management MDM__ and its sister, __Reference Data Management (RDM)__, I realised I had been being doing MDM/RDM pretty much my entire data career. We just called it a variety of other things. 
 
-The majority of the effort expended and complexity I've encountered has been to (attempt to) resolve:\
+The majority of the effort expended and complexity I've encountered has been to (attempt to) resolve:
  * mismatch between the initial intended use of data and actual use or need
  * data templates provided at relatively high level to multiple data providers resulting in seemingly structured data, but with wide variation in granularity, format, consistency and content, even for the same provider
  * semi-structured and unstructured public data collections generated as a side effect of some task, often containing valuable information but in formats that do not lend themselves to semi or fully automated analysis
