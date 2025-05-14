@@ -20,9 +20,24 @@ to uncover and tell stories contained within data, to:
   
 ### Modeling Data
 
-Invariably, building each visualisation meant reusing domain and/or third party (open) data. Where exploring new scenarios this sometimes meant building dummy data on top of the data model. For third party data sometimes this meant deriving the data model first, in order to extend this and/or build extensible visualisations directly on top of the data and associated situation models. And then the most painful part of the (pre-)analysis &ndash; cleaning, prepping and often enriching data to enable practical use.
+Invariably, building each visualisation meant reusing domain and/or third party (open) data. Where exploring new scenarios this sometimes meant initially creating dummy data on top of the data model built with domain owners and/or end users. For third party data sometimes this meant deriving the data model first, in order to extend this and/or build extensible visualisations directly on top of the data and associated situation models.
 
-I am a visual thinker, so learning early in my career to work with ontologies and graph models, working predominantly on semantic and web data-driven projects, has been a blessing in more ways than I can count. I've found also that translating these models into simple node-link graphs that mimic mind maps allows pretty much anyone to follow relationships within the data, and quickly obtain an overview of a dataset, without needing a background in complex data analysis or graph models.
+I am a visual thinker, so learning early in my career to work with ontologies and graph models, working predominantly on semantic web data-driven projects, has been a blessing in more ways than I can count. I've found also that translating these models into simple node-link graphs that mimic mind maps allows pretty much anyone to follow relationships within the data, and quickly obtain an overview of a dataset, without needing a background in complex data analysis or graph models.
+
+
+### Cleaning, Enriching &amp; Mastering Data
+
+The most painful and tedious part of the (pre-)analysis &ndash; cleaning, prepping and often enriching data to enable practical use. If you've ever worked on anything but the most trivial dataset (I'm struggling to think of one that would provide anything useful) you quickly learn the value in budgeting up to 80% of project time for data creation and/or third party data pre-processing. Unless you're lucky enough to obtain third party data that closely matches your data model. Or your client has their data ready to go and as needed.\ 
+In my experiencing refusing to acknowledge how much effort is involved in data preprocessing doesn't save you time even short term, and only increases pain long term. At best this is written off as technical debt; more often it results in data that is simply not used or usable or that comes with high cost of use, where alternatives do not exist.  
+
+On the other hand, modeling your data and building or cleaning with an eye to reuse means that over time you will recoup that time reusing data pipelines, code and even data subsets in other data projects. So the first time I encountered the (new-ish) term __Master Data Management MDM__ and its sister, __Reference Data Management (RDM)__, I realised I had been being doing MDM/RDM pretty much my entire data career. We just called it a variety of other things. 
+
+The majority of the effort expended and complexity I've encountered has been to (attempt to) resolve:\
+ * mismatch between the initial intended use of data and actual use or need
+ * semi-structured and unstructured public data collections generated as a side effect of some task, often containing valuable information but in formats that do not lend themselves to semi or fully automated analysis
+ * incomplete, inconsistently formatted and/or actively ofuscated data; sometimes to protect privacy or sensitivity, in some cases carried out such as to render the entire dataset unusable.
+
+In some of the most successful cases I worked with a design team and clients to (re)model data and build tools to help them capture data such that it was immediately human and machine-readable. Each of those won us new contracts, based on the trust we had built and the value clearly gained for on-going and longer term work.
 
 {::nomarkdown}
   <!-- a href="ebri_dashboard.html">EBRI dashboard</a -->
