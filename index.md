@@ -33,6 +33,8 @@ A couple examples of data models I've built, to feed into visualisation-guided a
 
 {::nomarkdown}
 
+<!--
+
 ### Cleaning, Enriching &amp; Mastering Data
 
 The most painful and tedious part of (pre-)analysis &ndash; cleaning, prepping and often enriching data to enable practical use. If you've ever worked on anything but the most trivial dataset (I'm struggling to think of one that would provide anything useful) you quickly learn the value in budgeting up to 80% of project time for data creation and/or third party data pre-processing. Unless you're lucky enough to obtain third party, machine-readable data that closely matches your data model. Or your client has their data ready to go and as needed.\ 
@@ -47,6 +49,10 @@ The majority of the effort expended and complexity I've encountered has been to 
  * incomplete, inconsistently formatted and/or actively obfuscated data; sometimes to protect privacy or sensitivity, in some cases carried out such as to render entire datasets unusable beyond scanning for very high level changes in trends..
 
 The projects I found simultaneously challenging and enriching were also the most successful, working with design and NLP teams and clients to (re)model data and build tools to help our end users capture working data such that it was immediately human and machine-readable. Each of those won us new contracts, based on the trust we built and the value clearly gained for on-going and longer term work.
+
+-->
+{:/}
+
 
 {::nomarkdown}
   <!-- a href="ebri_dashboard.html">EBRI dashboard</a -->
