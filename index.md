@@ -28,7 +28,8 @@ Experience has also taught me modelling data and building or cleaning with an ey
 
 A couple examples of data models I've built, to feed into visualisation-guided analysis:
   * [___Energy from Waste___](https://doi.org/10.6084/m9.figshare.6554606.v5), to feed into modelling operations and quantifying value within a digital business ecosystem
-  * 
+  * [sta-it-402_data_structure.pdf](https://github.com/aba-sah/sta-it402-dresscode/blob/8db31eaaa7da9836508456fb4258f943e05b00ce/docs/sta-it-402_data_structure.pdf)
+
 
 {::nomarkdown}
 
