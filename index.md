@@ -27,8 +27,11 @@ I am a visual thinker, so learning early in my career to work with ontologies an
 Experience has also taught me modelling data and building or cleaning with an eye to reuse means that over time you recoup the up to 80% of project time that may be required to clean and preprocess data &ndash; with reusable data pipelines, cleaning code and even mastered data subsets in other data projects. 
 
 A couple examples of data models I've built, to feed into visualisation-guided analysis:
-  * [___Energy from Waste___](https://doi.org/10.6084/m9.figshare.6554606.v5), to feed into modelling operations and quantifying value within a digital business ecosystem
-  * [sta-it-402_data_structure.pdf](https://github.com/aba-sah/sta-it402-dresscode/blob/8db31eaaa7da9836508456fb4258f943e05b00ce/docs/sta-it-402_data_structure.pdf)
+  * [___Energy from Waste Ontology___](https://doi.org/10.6084/m9.figshare.6554606.v5), to feed into modelling operations and quantifying value within a digital business ecosystem
+  * [___Scottish Qualifications Authority data &ndash; pupil grades &amp; teacher demographics___](https://github.com/aba-sah/sta-it402-dresscode/blob/626b08f849447a15ca54d37f0cf5eac46b20b43a/docs/sta-it-402_data_structure.pdf)
+
+Situation &amp; modelling
+  * [___Proposal for a green-themed business___](twothreethree/data_modelling/gcs_asdadzie_final.pdf) that won me a scholarship to study for an MBA
 
 
 {::nomarkdown}
