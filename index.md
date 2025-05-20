@@ -20,6 +20,16 @@ to uncover and tell stories contained within data, to:
 [_public github repository_](https://github.com/aba-sah) containing some of the background work feeding into these visualisations  
 [_code for the_front end of the active travel section_](https://github.com/Scottish-Tech-Army/STAClimateDashboard/tree/master/code/r/cycling_and_walking) of the [___Scottish Tech Army Climate Dashboard___](https://github.com/Scottish-Tech-Army/STAClimateDashboard)  
 
+
+{::nomarkdown}
+<!--
+When I'm not behind a computer, I'm likely to be found on a bike or fixing one. Given the opportunity to contribute to builing a Climate Dashboard for the Scottish Tech Army in the runup to COP26, I started looking at Cycling UK's open active travel data, collected from counters across Scotland. The original dataset has been extended since, and now includes multiple sources &ndash; local authorities, Sustrans and, most recently, trunk roads. 
+  * provide insight into complex, multi-source, high-dimensional and/or inter-related data, as seen in a summary of changes to active travel data across Scotland [_prior to and during the 2020 and 2021 lockdowns_](sta/cycle_counters_info_cards.pdf). (See also [___the 
+[_code for the_front end of the active travel section_](https://github.com/Scottish-Tech-Army/STAClimateDashboard/tree/master/code/r/cycling_and_walking) of the [___Scottish Tech Army Climate Dashboard___](https://github.com/Scottish-Tech-Army/STAClimateDashboard)  
+-->
+{:/}
+
+
   
 ### Modelling &amp; Mastering Data
 
