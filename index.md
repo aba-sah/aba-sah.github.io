@@ -21,13 +21,14 @@ to uncover and tell stories contained within data, to:
 
 {::nomarkdown}
 <!--
-When I'm not behind a computer, I'm likely to be found on a bike or fixing one. Given the opportunity to contribute to builing a Climate Dashboard for the Scottish Tech Army in the runup to COP26, I started looking at Cycling UK's open active travel data, collected from counters across Scotland. The original dataset has been extended since, and now includes multiple sources &ndash; local authorities, Sustrans and, most recently, trunk roads. 
+When I'm not behind a computer, I'm likely to be found on a bike or fixing one. Given the opportunity to contribute to building a Climate Dashboard for the Scottish Tech Army in the runup to COP26, I started looking at Cycling UK's open active travel data, collected from counters across Scotland. The original dataset has been extended since, and now includes multiple sources &ndash; local authorities, Sustrans and, most recently, trunk roads. 
   * provide insight into complex, multi-source, high-dimensional and/or inter-related data, as seen in a summary of changes to active travel data across Scotland [_prior to and during the 2020 and 2021 lockdowns_](sta/cycle_counters_info_cards.pdf). (See also [___the 
 [_code for the_front end of the active travel section_](https://github.com/Scottish-Tech-Army/STAClimateDashboard/tree/master/code/r/cycling_and_walking) of the [___Scottish Tech Army Climate Dashboard___](https://github.com/Scottish-Tech-Army/STAClimateDashboard)  
 -->
 {:/}
 
 
+<p>&nbsp;</p>
   
 ### Modelling &amp; Mastering Data
 
@@ -38,7 +39,7 @@ I am a visual thinker, so learning early in my career to work with ontologies an
 Experience has also taught me modelling data and building or cleaning with an eye to reuse means that over time you recoup the up to 80% of project time that may be required to clean and preprocess data &ndash; with reusable data pipelines, cleaning code and even mastered data subsets in other data projects. 
 
 A couple examples of data models I've built, to feed into visualisation-guided analysis:
-  * [___Energy from Wa-basedste Ontology___](https://doi.org/10.6084/m9.figshare.6554606.v5), to feed into modelling operations and quantifying value within a digital business ecosystem
+  * [___Energy from Waste ontology___](https://doi.org/10.6084/m9.figshare.6554606.v5), to feed into modelling operations and quantifying value within a digital business ecosystem
   * [___Scottish Qualifications Authority data &ndash; pupil grades &amp; teacher demographics___](https://github.com/aba-sah/sta-it402-dresscode/blob/626b08f849447a15ca54d37f0cf5eac46b20b43a/docs/sta-it-402_data_structure.pdf)
   * ___Skill and job role similarity analysis___
 
@@ -51,7 +52,7 @@ A couple examples of data models I've built, to feed into visualisation-guided a
 ### Links
 
 * [_public github repository_](https://github.com/aba-sah) containing some of the background work feeding into these visualisations
-* code for the_front end of the [_active travel section_](https://github.com/Scottish-Tech-Army/STAClimateDashboard/tree/master/code/r/cycling_and_walking) of the [___Scottish Tech Army Climate Dashboard___](https://github.com/Scottish-Tech-Army/STAClimateDashboard)  
+* code for the front-end of the [_active travel section_](https://github.com/Scottish-Tech-Army/STAClimateDashboard/tree/master/code/r/cycling_and_walking) of the [___Scottish Tech Army Climate Dashboard___](https://github.com/Scottish-Tech-Army/STAClimateDashboard)  
 * some publications documenting my work &ndash; on the [_dblp computer science bibliography_](https://dblp.uni-trier.de/pers/hd/d/Dadzie:Aba=Sah)
 * supplementary information for publications on [figshare](https://figshare.com/authors/Aba_Sah_Dadzie/762011)
 
