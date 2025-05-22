@@ -6,7 +6,7 @@ description: Little nuggets that tell some of my story as I've worked with data 
 ### Links
 
 * [_public github repository_](https://github.com/aba-sah) 
-* contribution to the [___Scottish Tech Army Climate Dashboard___](https://github.com/Scottish-Tech-Army/STAClimateDashboard) &ndash; visual analysis of [_active travel_](https://github.com/Scottish-Tech-Army/STAClimateDashboard/tree/master/code/r/cycling_and_walking) across Scotland
+* contribution to the [___Scottish Tech Army Climate Dashboard___](https://github.com/Scottish-Tech-Army/STAClimateDashboard) &ndash; code for front-end, visual analysis of [_active travel_](https://github.com/Scottish-Tech-Army/STAClimateDashboard/tree/master/code/r/cycling_and_walking) across Scotland
 * some publications documenting previous work &ndash; on the [_dblp computer science bibliography_](https://dblp.uni-trier.de/pers/hd/d/Dadzie:Aba=Sah)
 * supplementary information for publications on [figshare](https://figshare.com/authors/Aba_Sah_Dadzie/762011)
 
