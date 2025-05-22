@@ -3,6 +3,15 @@ title: Telling Stories with Data ...
 description: Little nuggets that tell some of my story as I've worked with data in different places and with different people. And what I've learnt along the way.  
 ---
 
+### Links
+
+* [_public github repository_](https://github.com/aba-sah) 
+* contribution to the [___Scottish Tech Army Climate Dashboard___](https://github.com/Scottish-Tech-Army/STAClimateDashboard) &ndash; visual analysis of [_active travel_](https://github.com/Scottish-Tech-Army/STAClimateDashboard/tree/master/code/r/cycling_and_walking) across Scotland
+* some publications documenting previous work &ndash; on the [_dblp computer science bibliography_](https://dblp.uni-trier.de/pers/hd/d/Dadzie:Aba=Sah)
+* supplementary information for publications on [figshare](https://figshare.com/authors/Aba_Sah_Dadzie/762011)
+
+<p>&nbsp;</p>
+
 
 ### Visual Storytelling
  
@@ -46,15 +55,6 @@ A couple examples of data models I've built, to feed into visualisation-guided a
 ##### Situation &amp; scenario modelling
   * [___Proposal for a green-themed business___](twothreethree/data_modelling/gcs_asdadzie_final.pdf) that won me a scholarship to study for an MBA
 
-
-<p>&nbsp;</p>
-
-### Links to more detail ...
-
-* [_public github repository_](https://github.com/aba-sah) containing some of the background work feeding into these visualisations
-* code for the front-end of the [_active travel section_](https://github.com/Scottish-Tech-Army/STAClimateDashboard/tree/master/code/r/cycling_and_walking) of the [___Scottish Tech Army Climate Dashboard___](https://github.com/Scottish-Tech-Army/STAClimateDashboard)  
-* some publications documenting my work &ndash; on the [_dblp computer science bibliography_](https://dblp.uni-trier.de/pers/hd/d/Dadzie:Aba=Sah)
-* supplementary information for publications on [figshare](https://figshare.com/authors/Aba_Sah_Dadzie/762011)
 
 {::nomarkdown}
 
