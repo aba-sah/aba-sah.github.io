@@ -49,7 +49,7 @@ A couple examples of data models I've built, to feed into visualisation-guided a
 
 <p>&nbsp;</p>
 
-### Links
+### Links to more detail ...
 
 * [_public github repository_](https://github.com/aba-sah) containing some of the background work feeding into these visualisations
 * code for the front-end of the [_active travel section_](https://github.com/Scottish-Tech-Army/STAClimateDashboard/tree/master/code/r/cycling_and_walking) of the [___Scottish Tech Army Climate Dashboard___](https://github.com/Scottish-Tech-Army/STAClimateDashboard)  
