@@ -17,8 +17,6 @@ to uncover and tell stories contained within data, to:
   * provide insight into complex, multi-source, high-dimensional and/or inter-related data, as seen in a summary of changes to active travel data across Scotland [_prior to and during the 2020 and 2021 lockdowns_](sta/cycle_counters_info_cards.pdf). (See also [___the interactive version___](sta/sta-climate-change_cycling.html))
   * serve as an agile, adaptable, working tool to explore alternative scenarios, as when [___modelling operations within a digital business ecosystem___](ebri_dbn/index.html)
 
-[_public github repository_](https://github.com/aba-sah) containing some of the background work feeding into these visualisations  
-[_code for the_front end of the active travel section_](https://github.com/Scottish-Tech-Army/STAClimateDashboard/tree/master/code/r/cycling_and_walking) of the [___Scottish Tech Army Climate Dashboard___](https://github.com/Scottish-Tech-Army/STAClimateDashboard)  
 
 
 {::nomarkdown}
@@ -48,6 +46,14 @@ A couple examples of data models I've built, to feed into visualisation-guided a
   * [___Proposal for a green-themed business___](twothreethree/data_modelling/gcs_asdadzie_final.pdf) that won me a scholarship to study for an MBA
 
 
+<p>&nbsp;</p>
+
+### Links
+
+* [_public github repository_](https://github.com/aba-sah) containing some of the background work feeding into these visualisations
+* code for the_front end of the [_active travel section_](https://github.com/Scottish-Tech-Army/STAClimateDashboard/tree/master/code/r/cycling_and_walking) of the [___Scottish Tech Army Climate Dashboard___](https://github.com/Scottish-Tech-Army/STAClimateDashboard)  
+* some publications documenting my work &ndash; on the [_dblp computer science bibliography_](https://dblp.uni-trier.de/pers/hd/d/Dadzie:Aba=Sah)
+* supplementary information for publications on [figshare](https://figshare.com/authors/Aba_Sah_Dadzie/762011)
 
 {::nomarkdown}
 
