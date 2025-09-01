@@ -49,7 +49,7 @@ Experience has also taught me modelling data and building or cleaning with an ey
 
 A couple examples of data models I've built, to feed into visualisation-guided analysis:
   * [___Energy from Waste ontology___](https://doi.org/10.6084/m9.figshare.6554606.v5), to feed into modelling operations and quantifying value within a digital business ecosystem
-  * [___Scottish Qualifications Authority data &ndash; pupil grades &amp; teacher demographics___](https://github.com/aba-sah/sta-it402-dresscode/blob/626b08f849447a15ca54d37f0cf5eac46b20b43a/docs/sta-it-402_data_structure.pdf)
+  * [___Scottish Qualifications Authority data &ndash; pupil grades &amp; teacher demographics___](https://raw.githubusercontent.com/aba-sah/sta-it402-dresscode/main/docs/sta-it-402_data_structure.pdf)
   * ___Skill and job role similarity analysis___ in an EU-funded project investigating human resource and skills in data science, to satisfy growing demand for the data-driven economy
 
 ##### Situation &amp; scenario modelling
