@@ -1,0 +1,180 @@
+id,locationId,RoadName,RoadNumber,RoadType
+78f5f69a-c2e6-5601-b95a-32fb08492019,c307d158-459c-58f2-b252-67abee24a7cb,South Rd,A982,A-Road
+ed980efb-9f2a-57b4-84d2-fe862a0acb15,a8a2dff7-c8a7-5f1d-8b17-cb0d2b1bcfb9,Broad St,A98,A-Road
+988b1774-6c65-54fb-ac62-982f471eaf3d,18dff98e-54ea-5669-a825-da05ca0ce9de,West High St,B9170,B-Road
+83db22bf-e903-5b5f-8a65-91427e7976b3,240558de-0d72-5036-babf-b742c943e40e,Muirend Rd,,Minor
+77df9d02-d7f3-50bc-a757-6adde6d3f535,e00e5a04-b35d-536c-87b7-812255223e4d,Bridge St,B9005,B-Road
+22384078-6354-5c2e-949e-7d01dbeed9fb,d73596b6-56f8-5970-8891-3488d2a31bfa,Dundee Rd,A933,A-Road
+5b0ef142-33ab-546c-b4d8-40d49929ff59,d73596b6-56f8-5970-8891-3488d2a31bfa,Cairnie St,A92,A-Road
+d2832bc9-084d-5689-9293-d6d517c7b750,d73596b6-56f8-5970-8891-3488d2a31bfa,Seaton Rd,,Minor
+c00c0f41-c017-5f8f-8f40-9bab7ccb5250,097ba6a2-09c6-55dd-95bc-caaf15f7aabc,King St,A956,A-Road
+cf4f3e80-d7d6-5690-ad3f-223e3b21a696,097ba6a2-09c6-55dd-95bc-caaf15f7aabc,Auchmill Rd,A96,A-Road
+f8e313ed-996c-53b9-905d-8fbd372d4430,097ba6a2-09c6-55dd-95bc-caaf15f7aabc,Lang Stracht,A944,A-Road
+d674bde3-fcdb-5a3d-b38f-b6455a20e3f4,097ba6a2-09c6-55dd-95bc-caaf15f7aabc,Skene Rd,B9119,B-Road
+44fcddcf-7e58-5751-8697-b90434e04ac5,097ba6a2-09c6-55dd-95bc-caaf15f7aabc,Wellington Rd,A956,A-Road
+997a07a8-9558-518b-82a0-49ac80be1eb7,d73596b6-56f8-5970-8891-3488d2a31bfa,Keptie Rd,B9095,B-Road
+11a549d5-71da-5460-bf23-f5b2fe6ffd45,d73596b6-56f8-5970-8891-3488d2a31bfa,Fisheracre,A92,A-Road
+23765602-7c69-5f61-a211-3c1885ff73dc,d73596b6-56f8-5970-8891-3488d2a31bfa,Millgate Loan,B9114,B-Road
+6c56e963-1b45-5821-88bc-0d2bae22c9a0,d73596b6-56f8-5970-8891-3488d2a31bfa,Westway,A933,A-Road
+bca4bcda-03e3-5661-b9da-ecd888a1465d,d73596b6-56f8-5970-8891-3488d2a31bfa,Burnside Drive,,Other
+30aea337-b75d-50ab-80df-1ea61d80ed72,004f6584-ba47-546c-b414-8db552d0b6b6,Stirling Rd,A901,A-Road
+21dd022a-41e1-5752-a97f-533295c99f5c,8855567a-07d2-504e-82f8-c9030d6e70f9,Comiston Rd,A814,A-Road
+dcd36bdc-d7af-5d63-8517-49c721d2acb2,8855567a-07d2-504e-82f8-c9030d6e70f9,Lanark Rd,A702,A-Road
+a26e835f-73ec-5c7d-af1e-814d7ff59d29,8855567a-07d2-504e-82f8-c9030d6e70f9,Old Dalkeith Rd,A70,A-Road
+4eb56e10-be01-5e05-a46c-719fc2dcd197,8855567a-07d2-504e-82f8-c9030d6e70f9,York Place,,Other
+7826e435-6185-5f4b-8cab-ad166bf05ec4,8855567a-07d2-504e-82f8-c9030d6e70f9,Lothian Rd,A702,A-Road
+ba11ee8c-e8e1-5a30-a58f-34c8a7a1171b,8855567a-07d2-504e-82f8-c9030d6e70f9,Pennywell Rd,A700,A-Road
+ca87b4f2-82aa-5aad-a758-297c0db44fdc,8855567a-07d2-504e-82f8-c9030d6e70f9,Great Junction St,A901,A-Road
+0fb19a6d-731b-559f-b597-7a293dc85f84,8855567a-07d2-504e-82f8-c9030d6e70f9,Milton Rd West,,Other
+034501d9-8c87-52b8-8aba-ec372a58b300,8855567a-07d2-504e-82f8-c9030d6e70f9,Hillhouse Rd,,Other
+01ef1eb6-cf6f-5c26-9d76-ec5a79c86b40,8855567a-07d2-504e-82f8-c9030d6e70f9,West Coates,,Other
+09a76390-9d3c-51bb-a063-f49a56c70d3b,8855567a-07d2-504e-82f8-c9030d6e70f9,Melville St,,Other
+61e20cc9-2b3a-5427-84f4-b59787aa1b02,8855567a-07d2-504e-82f8-c9030d6e70f9,"Leith Walk, south of McDonald Rd junction",,Other
+466250e3-71e5-5f3d-a445-b9089e7814cb,4f0df854-07b1-55ca-90d8-0fe546d8e361,Strathern Rd,,Other
+233d59a3-a79d-5e77-ad44-fa63994d8a93,7ffabe8c-8b76-5daa-8bc5-7be957adc200,Alexander Parade,A815,A-Road
+2285bf4a-5f30-5d4d-af9d-3713b816674e,a9379831-23af-5ea2-a522-7ca42d5ab667,West Clyde St,A814,A-Road
+a285a3e6-746a-5021-9fae-162d3b6fd79c,26f7d3fe-ffde-544a-9e05-78fb191bee24,London Rd,A74,A-Road
+ad92cccd-f28d-5c5d-b328-c7de6a9f0a4b,26f7d3fe-ffde-544a-9e05-78fb191bee24,Dumbarton Rd,A718,A-Road
+7d652235-dffa-5e4c-b023-48f0966b7e27,2ea968a2-bd47-5161-8cec-01c6412db04c,Nairn Rd,A781,A-Road
+9b9ad512-b5b9-5507-b390-386c698e96fc,a7cddfda-06e5-5165-8262-4ade9ff810ff,Morriston Rd,B959,B-Road
+fcefe539-b48a-5976-bab6-c22d0c9cdec3,007c3c2e-8698-52aa-896f-10d4ae3c0042,Bothwell Rd,A923,A-Road
+64b0f038-b4d4-5f79-88b9-e952edb7a924,e982fdd2-7bc7-59ff-b7e3-658fd39916f3,Drip Rd,,Minor
+f54e0f9b-7372-51c2-bdd7-9ad58f631711,e982fdd2-7bc7-59ff-b7e3-658fd39916f3,Kerse Rd,,Other
+db281384-66cc-5774-a8a2-d50f4cfa1d1e,27280d7f-aea3-5631-b185-3d93c53067a0,Glasgow Rd,A735,A-Road
+e6b7d3fd-0fc5-59ed-880b-5c2a95547b91,7394073b-00a0-57bc-be53-84fd5f50b651,Graham St,A77,A-Road
+8c310400-954e-50f3-842b-620176978d22,6ee77efa-0af5-5f1f-90f6-9b0ebb4733ed,Lewis St,A718,A-Road
+c7c3c664-1f53-5721-9082-3515c78e1fe5,7c2751f3-f936-5c26-90f5-ba2eb34a85ae,Buccleuch St,B774,B-Road
+f8cac77b-2f80-529e-a4b9-497bf89f78dd,26f7d3fe-ffde-544a-9e05-78fb191bee24,Cumbernauld Rd,A80,A-Road
+b2387ba1-944e-53b3-8998-7abe9651130d,26f7d3fe-ffde-544a-9e05-78fb191bee24,Cathedral St,,Other
+714fafb0-25c1-5f95-8703-7e59aba245f5,4f0df854-07b1-55ca-90d8-0fe546d8e361,Strathmore Avenue,,Other
+25eabb1d-70b0-5f93-879e-f8946f5c480d,4f0df854-07b1-55ca-90d8-0fe546d8e361,Perth Rd,,Other
+e095eada-33aa-5225-810b-55c3dd238792,4f0df854-07b1-55ca-90d8-0fe546d8e361,Lochee Rd,B773,B-Road
+c472492d-6e21-50e2-95d0-ec2e8e4feb96,4f0df854-07b1-55ca-90d8-0fe546d8e361,Blackness Rd,,Other
+c59aa7bf-d8c9-5063-97bf-7ac89387c820,7c2751f3-f936-5c26-90f5-ba2eb34a85ae,Shakespeare St,A780,A-Road
+52789444-a27f-5df1-84b4-ebfea2b5cbc4,4f0df854-07b1-55ca-90d8-0fe546d8e361,Forfar Rd,,Other
+ae80138f-f3ca-58f2-9e2f-c70ac56877a2,4f0df854-07b1-55ca-90d8-0fe546d8e361,Arbroath Rd,B959,B-Road
+41e6d1ee-94fd-5f60-89ba-c114fdb1e1e4,a1a80a54-5bc1-53ae-aada-675dfdaddfa4,High St,B7083,B-Road
+88cb46d1-c66b-59be-a1ac-20686ad02935,2ea6ecc3-17ca-5d3d-a223-e2227de3f05f,Glaisnock St,A81,A-Road
+9698b2c3-28fa-5323-96f1-45acece9b2be,eec3c86e-3ebc-5549-89df-ee5b6b0a4c49,Milngavie Rd,A81,A-Road
+bb0d4d8e-d997-5442-b693-cdbf3ec90796,441333b7-ecd5-5587-9f7c-c1086a043c28,Townhead,B6415,B-Road
+6a428998-b3bb-5d94-bc20-dec876e6703f,48650827-e73d-57cd-8c7c-474dc5b47717,Eskview Terrace,B6415,B-Road
+b69d9333-1711-53fb-873a-24bb23b95386,48650827-e73d-57cd-8c7c-474dc5b47717,New St,A199,A-Road
+1131f9e5-9ac7-58ac-af09-2976f6ebd1b9,48650827-e73d-57cd-8c7c-474dc5b47717,Linkfield Rd,A77,A-Road
+afe09fa1-b0d2-527f-bdce-f3d8dccadb25,17a2376e-a21e-52bb-9af1-4ddc6f0df678,Caplethill Rd,A727,A-Road
+f5b9f1a6-2444-50cd-a6e6-64b9bbe02226,a5fc89f4-4eee-5a10-bc9d-5f21d651ddc7,Glasgow Rd,A727,A-Road
+7524e6f2-4fc3-57f6-bbc8-90de51c73470,17a2376e-a21e-52bb-9af1-4ddc6f0df678,Kelburn St,A736,A-Road
+e075f3b6-a91c-582f-9b40-bea4d32e723d,17a2376e-a21e-52bb-9af1-4ddc6f0df678,Darnley Rd,A77,A-Road
+13469ed1-1170-54b1-a2f8-270cfb85dc67,7762df5c-37ca-5b90-b210-d700aa207996,Neilston Rd,A736,A-Road
+9eecaf65-8c1b-58b3-b1ee-c46af2410d04,78d8eb6a-da85-5995-8771-02d5d6e79b88,Ayr Rd,B767,B-Road
+30b9fc48-a896-5698-bfed-c1cddcb328d7,a54f1424-764e-5194-b146-73d8ae73c1f7,Glasgow Rd,B767,B-Road
+81907c4a-d943-5f6e-8917-2e13c42d029c,405fc7eb-37ac-5e83-a5da-3cc1c028d235,Montgomery St,B764,B-Road
+b3d6ed4c-e881-54fe-877c-45b5bf10efec,bff51d42-6082-549f-a449-c7376dfc481a,East Kilbride Rd,A736,A-Road
+aaf4a627-238a-54ff-8a1d-a8629e3d1850,bff51d42-6082-549f-a449-c7376dfc481a,Eastwoodmains Rd,A736,A-Road
+c0308a4a-4b2f-5813-97f7-12a3774357f2,2bdd37f3-2cd8-5043-9506-1c214eced0b1,Clarkston Rd,B764,B-Road
+63143a9a-0006-5779-ba5f-e44e7087f69d,d42aed07-5dd8-5f83-ad7e-a166b1de7237,Huntly Avenue,,Minor
+09b0f58d-9f08-5841-afc3-c390b6de55d5,d42aed07-5dd8-5f83-ad7e-a166b1de7237,Fenwick Rd,A77,A-Road
+2d4abfbc-745f-5807-81d1-97a44f4ea597,d42aed07-5dd8-5f83-ad7e-a166b1de7237,Ayr Rd,B769,B-Road
+2a3dc67d-364a-595e-b98c-50313d1d1e9d,d42aed07-5dd8-5f83-ad7e-a166b1de7237,Davieland Rd,,Minor
+b2c22eea-ce8d-5ede-aed2-8db7f1406e76,7674ea0e-4200-548a-a9f0-730594e60440,Speirsbridge Rd,A803,A-Road
+59a3cbb0-a2d6-5c18-bce7-3bdff5b471a0,78d8eb6a-da85-5995-8771-02d5d6e79b88,Capelrig Rd,,Minor
+adea78c5-169b-54d0-8c81-c0fe3d284e55,17a2376e-a21e-52bb-9af1-4ddc6f0df678,Paisley Rd,B771,B-Road
+73a16d5f-8a18-5faa-9197-fb3047ec77dc,17a2376e-a21e-52bb-9af1-4ddc6f0df678,Carlibar Rd,A907,A-Road
+b04dc9ad-c61b-566d-aef6-f0b966c5b8e0,d42aed07-5dd8-5f83-ad7e-a166b1de7237,Station Rd,B925,B-Road
+100cf7ce-2979-5de9-9dc6-8ddba0989a83,ea2eac58-9e4f-524f-8ebb-9fd65a4f11f4,Visitor Centre - unnamed road,,Minor
+f0834513-715a-5231-b2d7-c9bf9aefe604,17a2376e-a21e-52bb-9af1-4ddc6f0df678,Balgray Reservoir,A8,A-Road
+62e7feb1-a583-5950-962a-1e77fd0b1573,7674ea0e-4200-548a-a9f0-730594e60440,Rouken Glen Rd/ Rouken Glen Park Access,A727,A-Road
+e6431c79-47f7-59a2-b2b0-8bf0e47c5eec,aecb3e1b-dfbf-5a83-b374-724fe3bbdaec,Halbeath Rd,A955,A-Road
+581cc950-d834-5c24-bd2d-b4382965df1c,711e1252-8f14-5d04-bd89-ea84abc60f42,Victoria Rd,B925,B-Road
+92ce4c2a-93bd-5175-bd3c-ec121e758bcf,966da1f0-1c14-57bf-96dc-497e88f46b32,Normand Rd,A955,A-Road
+43dbc8d9-0467-57c3-8d23-d76a73d80111,b49ae575-1f22-52c5-ad4f-90bd98d61de1,Caskieberran Drive,A905,A-Road
+4f572e52-e9eb-5e88-aa5b-b1db73724b1f,4101c359-2870-5099-ac3f-dc5d4ebf9749,Methilhaven Rd,A80,A-Road
+8ef790b0-5875-5f5e-909d-d9b03763a6d0,c3249183-4d5b-5007-865d-52fc8fb05f7b,Windygates Rd,A915,A-Road
+a4c4fbe6-dc64-5634-904a-36b0b4134640,bf3a4739-fea0-57f8-9570-380f8b190d26,Perth Rd,,Other
+41d7931d-e3d8-5bdb-8505-f4f2f6667a23,aecb3e1b-dfbf-5a83-b374-724fe3bbdaec,Aberdour Rd,,Other
+79de5cc0-83f8-5a5f-a1fe-39d80b7581d4,2b102a93-0546-5e6a-a7bc-eaa529e2f34b,Grangemouth Rd,,Other
+65b3d7dd-89a8-5870-b24c-db47b44a3757,2b102a93-0546-5e6a-a7bc-eaa529e2f34b,Etna Rd,A752,A-Road
+81cae5f0-2a5a-5aea-8526-ab5bc09c0b8d,2b102a93-0546-5e6a-a7bc-eaa529e2f34b,Callendar Rd,,Other
+3e1db8c7-d22a-5e23-afbb-31c6dab31ac9,2b102a93-0546-5e6a-a7bc-eaa529e2f34b,Camelon Rd,A803,A-Road
+cc0a0d50-8905-577e-aae3-42c98b84019f,74f60ab9-3ecf-54a1-a7bc-b571492c251b,Dorrator Bridge,,Other
+9104b128-fab9-5299-922d-f91fa3a0ffc4,27280d7f-aea3-5631-b185-3d93c53067a0,Dales Bridge,,Other
+8aa6a738-bd13-54e2-a1cb-830b99052edf,2b102a93-0546-5e6a-a7bc-eaa529e2f34b,Abbotshaugh Bridge,,Other
+9f0baa1c-dff8-5c90-b269-ad2d756c493f,26f7d3fe-ffde-544a-9e05-78fb191bee24,Castlebank St,A701,A-Road
+d3bbbfbe-0e2e-513c-b96e-313ab3ca9395,26f7d3fe-ffde-544a-9e05-78fb191bee24,Victoria Rd,,Other
+726c03e9-1ef2-521e-abff-e4ce4cac0d33,26f7d3fe-ffde-544a-9e05-78fb191bee24,Nithsdale Rd,,Other
+2354fda8-df31-57b0-9b90-6fb4a0a5609b,26f7d3fe-ffde-544a-9e05-78fb191bee24,Allison St,,Other
+f8e72b57-f802-5c94-b846-23ec81bd0f21,26f7d3fe-ffde-544a-9e05-78fb191bee24,Calder St,,Other
+6b71c188-96d2-5e9d-86a1-57957f198598,26f7d3fe-ffde-544a-9e05-78fb191bee24,Saracen St,,Other
+bbfc1ed7-f45f-5177-b445-eeb396ba51ae,26f7d3fe-ffde-544a-9e05-78fb191bee24,Clyde St,,Other
+002af165-5a43-5b1e-b27d-1298ccab58fe,26f7d3fe-ffde-544a-9e05-78fb191bee24,Garscube Rd,A81,A-Road
+1d487d87-4e05-5c3b-bb69-6d1f099d32c0,26f7d3fe-ffde-544a-9e05-78fb191bee24,Byres Rd,B808,B-Road
+10de2dfc-d91a-5d48-9b52-6f42292f50c4,26f7d3fe-ffde-544a-9e05-78fb191bee24,Duke St,,Other
+25e39963-354f-567a-8235-6cea851e0d4d,303aafb3-dd30-5391-9220-2a93c71401b0,Millburn Rd,B865,B-Road
+afe45a71-294a-58a1-8eaa-808bf9b66311,dfeb8971-a237-503c-8421-18534a7aefbd,Barn Church Rd,A96,A-Road
+ee7f03c4-a55f-57ed-8525-afa49dc8bf0f,afd8496c-7922-5739-a0e9-e91508415add,A830,A830,A-Road
+177c9c0a-607d-5455-bbc4-feb190a709fc,02677d88-932f-5325-b3ba-618316154272,Inverness Rd,A96,A-Road
+69da09b7-0acd-5770-bc25-b93b5d5b085c,26b6ab66-a211-5ad8-9a75-53ae84914bd7,East Hamilton St,A737,A-Road
+d5ebe068-069f-5337-be79-d08aeea83d60,c761a8c5-6aed-5c3b-804c-0a33775031fb,Eskbank Rd,A6094,A-Road
+22cd8fc0-3bb4-503a-9f82-0da8e50bfacf,15e28e6e-6d2c-55cc-8b54-f0a97dd0a8d5,John St,A89,A-Road
+8d27aefc-90c3-5d35-b73a-43fccdcbc79d,c761a8c5-6aed-5c3b-804c-0a33775031fb,A7,A7,A-Road
+776f9660-6f84-5d3c-92e1-dea0c676f9c6,9866d233-e874-5109-ba65-f104f0f95be2,Ayr Rd,A723,A-Road
+7a3e6714-d1c7-5f00-ae42-c03be4520340,32fb1761-d916-5509-92cd-027955bb0582,Winton Circus,A721,A-Road
+d634deb2-a3e5-5c95-b2d7-57b259313034,e357dadb-58ef-5af6-8854-56da071348b3,Coatbridge Rd,A752,A-Road
+561bedb3-1603-558a-ade3-12d593b59ba9,6e41d894-5420-5b4f-8777-3fc9a8f9307d,Hamilton Rd,A723,A-Road
+013f64c1-8b5f-537a-b162-fa770fa34e9a,ceaa50b9-f1fb-55f8-bf77-168d2a382411,Main St,A85,A-Road
+2d0e1ffa-664b-5af0-ae7c-61c52f8ec9f8,fe192877-fe48-5733-851c-9fe2224148f2,South Carbrain Rd,A912,A-Road
+1cb54764-5dbd-5111-a427-8687ed3dc4fe,d1f960e4-fa46-5ce4-9a05-5c0b85be9cbd,Sunnyside Rd,B803,B-Road
+601adf8c-0808-51df-97d1-0562824b29d5,7394073b-00a0-57bc-be53-84fd5f50b651,Craigneuk Avenue,,Other
+4e45f0a7-21aa-5228-9f98-657ef4f1d9ce,ceaa50b9-f1fb-55f8-bf77-168d2a382411,Alexander St,,Other
+7c761ed2-c8d5-582c-ab99-67593907ff6f,d1670106-cdd9-5bb4-873e-943772e9b227,Junction Rd,A912,A-Road
+a3231c4d-4b77-5f05-bbb6-0ec472d6b2a5,9759926f-2b38-5055-b901-e10e773f207a,Jeanfield Rd,A93,A-Road
+7ae35850-2bf8-53b7-a32a-c6854183360a,9759926f-2b38-5055-b901-e10e773f207a,Glasgow Rd,A93,A-Road
+ce5a2e5a-f9a2-59ab-9aff-1261d95a8f18,9759926f-2b38-5055-b901-e10e773f207a,Edinburgh Rd,A912,A-Road
+60a69254-fee0-5d20-8dd8-7f294dc0a358,9759926f-2b38-5055-b901-e10e773f207a,Main St,A93,A-Road
+be547c07-3383-54d4-ace9-037c027e4fb9,9759926f-2b38-5055-b901-e10e773f207a,Dunkeld Rd,A912,A-Road
+59ed3f3b-f636-57d1-b613-9673f7625e27,9759926f-2b38-5055-b901-e10e773f207a,Tay St,,Other
+4b346962-489b-578c-8b3b-1ddd40977b00,9759926f-2b38-5055-b901-e10e773f207a,Dundee Rd,A989,A-Road
+0f6dfec0-1e3a-52ea-a900-684993a03117,9759926f-2b38-5055-b901-e10e773f207a,Isla Rd,A713,A-Road
+ac12135a-9e9d-5ed7-b24f-489090c7b573,9759926f-2b38-5055-b901-e10e773f207a,Perth Rd,A79,A-Road
+02ec703b-ac52-5c59-b790-f8b01b5abd7c,9759926f-2b38-5055-b901-e10e773f207a,Ruthvenfield Rd,A719,A-Road
+d794ed6d-922b-5379-8879-50823423dda3,e2ac6700-e178-5388-aed2-f01987e294c0,Greenock Rd,B789,B-Road
+79cf084b-1a7b-55a5-aae5-880ce85ea66a,5c8dcf83-dbde-5145-929d-5c03c884f442,Main Rd,B789,B-Road
+d5ddc13c-27f7-592e-87ed-24013f74bc9c,1f0b8539-2b02-5547-be20-124b9b92736c,High St,A72,A-Road
+a164aaff-1a91-5181-9bb9-cd7fae00c2a7,4926a412-d7b4-5504-9aa6-9d258c928632,Inchinnan Rd,A8,A-Road
+a5c36488-ea98-5b47-bfa9-4eb05eb1566d,1f0b8539-2b02-5547-be20-124b9b92736c,Abercorn St,,Minor
+dd0893c6-8520-5fc0-a725-af4d886e4a4a,e982fdd2-7bc7-59ff-b7e3-658fd39916f3,St Ninians Rd,B8051,B-Road
+494b4237-de2f-5686-8376-528493be8387,362cdedf-c3d0-5b38-95a7-ea39fa2bb2ab,Castlehill Rd,B7071,B-Road
+7881f719-c490-5dfc-958e-59e453ff4b88,362cdedf-c3d0-5b38-95a7-ea39fa2bb2ab,Whitletts Rd,A73,A-Road
+ead9eed6-1696-5e34-ad90-bbca83f99d1c,362cdedf-c3d0-5b38-95a7-ea39fa2bb2ab,Prestwick Rd,A79,A-Road
+7219b217-1471-5d88-bd44-1018323f12f9,362cdedf-c3d0-5b38-95a7-ea39fa2bb2ab,Carrick Rd,A79,A-Road
+da99ef3a-b6ee-56c1-bb4f-3aead969480c,e982fdd2-7bc7-59ff-b7e3-658fd39916f3,Causewayhead Rd,A9,A-Road
+1bfc4164-ad16-5bb7-a047-a61ee6e54156,b9da749d-bf95-5495-a475-210896aa720e,Innerleithen Rd,A72,A-Road
+cbdcfa0f-39c3-5a26-b1c9-c6c97939be7e,92373ed5-8f39-5244-b279-a9b4894289ee,Tweedbank Drive,,Other
+f46d0d9c-cf2f-5d6c-9faa-49567ee80ae9,9b8d95cb-1ca2-5975-b6a1-1939b7f17460,Duke St,,Other
+b6d18595-5700-5ef4-9c53-bed73e7212e6,e982fdd2-7bc7-59ff-b7e3-658fd39916f3,Broom Rd,,Other
+ee4001e6-1bc5-572d-83b6-f2a5ba8391b7,e982fdd2-7bc7-59ff-b7e3-658fd39916f3,Forthside Way,,Other
+77d77e01-d18d-55a1-a2c3-938f10ccb9d6,9e339298-e78a-595d-9741-afe7233c5633,Hyndford Rd,A749,A-Road
+ed7a27ba-d2d5-5443-a93b-74578baedb8f,9e339298-e78a-595d-9741-afe7233c5633,Braxfield Rd,,Other
+2935d57e-b108-517f-bd7b-25d504dcdaa0,9e339298-e78a-595d-9741-afe7233c5633,Unnamed Rd/ St Patrick's Rd,,Other
+54126ed9-765d-5d31-ab3d-d1d8131aee29,9e339298-e78a-595d-9741-afe7233c5633,Claghorn Rd,,Other
+558b33f2-e59f-59bd-8f2f-7b6cbbe12d20,9e339298-e78a-595d-9741-afe7233c5633,Rhyber Avenue,,Other
+db8c1953-da6e-5140-8459-381f2b51d3a6,9e339298-e78a-595d-9741-afe7233c5633,Smyllum Rd,,Minor
+f1efbaf7-7410-5b1b-abdf-d78256fc9885,deb4bb75-b888-5d94-adac-346213d4fed1,Blairbeth Rd,,Other
+ccce27dc-78c4-5311-904f-276e543534fd,deb4bb75-b888-5d94-adac-346213d4fed1,Buchanan Drive,,Other
+7f8b0bd6-e77e-559c-afe2-866ebef0721b,deb4bb75-b888-5d94-adac-346213d4fed1,Stonelaw Rd,A749,A-Road
+1647323e-3a42-5443-8d3b-c1cba4440235,deb4bb75-b888-5d94-adac-346213d4fed1,Richmond Drive,,Other
+d970ac50-f7d5-5004-bd6d-3c2f27244cff,deb4bb75-b888-5d94-adac-346213d4fed1,Victoria St,,Other
+8a9dd35f-b8e6-5e3c-8d65-d3a268907a62,deb4bb75-b888-5d94-adac-346213d4fed1,Bankhead Rd,,Minor
+8165ced0-8f77-538f-92ad-5a49740a382d,e4682511-d986-5fe3-a4bc-83b2c7a7ce08,Stewartfield Way,A749,A-Road
+a689e761-7667-5311-a1f9-c2f3019814ab,e4682511-d986-5fe3-a4bc-83b2c7a7ce08,Mossneuk Rd,,Minor
+38d52b77-7a13-504c-9d23-02071198b842,e4682511-d986-5fe3-a4bc-83b2c7a7ce08,West Mains Rd,B761,B-Road
+6a2aae76-d59a-5929-b6e7-f3d3fbbcf70e,e4682511-d986-5fe3-a4bc-83b2c7a7ce08,The Murray Rd,,Minor
+1e974791-973a-5959-9475-2b15675f1195,422a0875-634a-588a-99cd-9e98d6e028e5,Kilbowie Rd,A1814,A-Road
+5f793029-68d4-580a-957e-186a0e2e4182,072938c5-b642-57f7-8efb-bec4d3d664e9,Bridge St,,Minor
+1b1292c0-a1ea-5560-b92e-f4f85745cfdf,40fe74bb-4074-52a1-a237-424be5970524,Cromwell St,A907,A-Road
+4cf10ec2-48b7-5a41-ae02-8752079e6216,40fe74bb-4074-52a1-a237-424be5970524,Matheson Rd,A857,A-Road
+48583706-2714-5150-9228-f0389f5f7a4e,40fe74bb-4074-52a1-a237-424be5970524,Macaulay Rd,A857,A-Road
+eed643f7-29e4-5c8e-a339-3a26c64eec07,5ebfef8f-ce4d-57d9-bc90-ad0f98c9c9d6,Leyland Rd,,Minor
+0c1cb852-595c-5f17-9592-97b5c9e77ce5,4a95294e-04ff-564f-9a79-57c8dab77f39,A89,A89,A-Road
+5cc47b82-36bd-5e8b-baeb-5124cbd32799,5ebfef8f-ce4d-57d9-bc90-ad0f98c9c9d6,Edinburgh Rd,A89,A-Road
+e2c94ac7-22ae-5179-be35-3278693e5e30,4a95294e-04ff-564f-9a79-57c8dab77f39,West Main St,A899,A-Road
+dcd21486-c269-5262-ab98-0b93f2455530,608ca9a1-ef3d-5de9-8055-692436614135,Sound Brae,A79,A-Road
